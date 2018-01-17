@@ -1,0 +1,28 @@
+.hbox {
+	-fx-background-color: #001E32;
+}
+
+.tree-view {
+	-fx-background-color: #001E32;
+}
+
+.tree-item {
+	-fx-background-color: #001E32;
+}
+
+.choice-box {
+	-fx-background-color: transparent;
+	-fx-border-color: #47BDFF;
+	-fx-mark-color: #47BDFF;
+	-fx-focused-mark-color: transparent;
+}
+
+.choice-box:hover {
+	-fx-background-color: #FFCD3C;
+	-fx-background-insets: 0.0 0.0 0.5px 0.0;
+	
+}
+
+.label{
+	-fx-text-fill: #47BDFF;
+}

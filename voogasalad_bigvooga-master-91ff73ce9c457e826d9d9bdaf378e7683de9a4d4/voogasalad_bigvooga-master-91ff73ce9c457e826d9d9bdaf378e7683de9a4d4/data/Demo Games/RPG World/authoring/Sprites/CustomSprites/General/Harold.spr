@@ -1,0 +1,34 @@
+<authoring__UI.SpriteDataConverter>
+  <conditionRows/>
+  <actionRows class="linked-list"/>
+  <catmap/>
+  <inventory/>
+  <imageURL>UniqueSprite0826599402514164.png</imageURL>
+  <gridPos>
+    <int>0</int>
+    <int>0</int>
+  </gridPos>
+  <name>Harold</name>
+  <width>3</width>
+  <height>3</height>
+  <UUID>9b1bfd50-ae66-48bf-854c-d4d624459de3</UUID>
+  <myAnimationSequences>
+    <authoring.Sprite.AnimationSequences.AuthoringAnimationSequence resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringAnimationSequence">
+      <myName>Default</myName>
+      <myImages>
+        <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+          <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+            <imagePath>UniqueSprite0826599402514164.png</imagePath>
+          </myImage>
+        </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+      </myImages>
+    </authoring.Sprite.AnimationSequences.AuthoringAnimationSequence>
+  </myAnimationSequences>
+  <spriteConditionOperations class="linked-list"/>
+  <spriteActionOperations class="linked-list"/>
+  <renderingPreference>0</renderingPreference>
+  <myDialogs/>
+  <mySavePath>/Users/aaronpaskin/Desktop/Good Vooga/RPG World/authoring/Sprites/CustomSprites/General/Harold</mySavePath>
+  <spriteType>SpriteObject</spriteType>
+  <tags/>
+</authoring__UI.SpriteDataConverter>

@@ -1,0 +1,67 @@
+.tab-pane {
+	-fx-background-color: #001E32;
+}
+
+.tab-pane *.tab-header-area *.tab-header-background {
+  -fx-background-color: transparent;
+  -fx-border-color: #47BDFF;
+}
+
+.tab {
+  -fx-border-color: #47BDFF;
+  -fx-background-color: transparent;
+}
+
+.tab-label {
+	-fx-text-fill: #47BDFF;
+}
+
+.tab:selected {
+    -fx-background-color: #FFCD3C;
+}
+
+.tab:hover {
+	-fx-background-color: #FFCD3C;
+}
+
+.scroll-pane > .viewport {
+   -fx-background-color: #001E32;
+}
+
+.scroll-pane > .corner {
+      -fx-background-color: transparent;
+}
+
+.scroll-pane {
+   -fx-background-color: transparent;
+}
+
+.scroll-bar{
+    -fx-background-color: transparent;
+    -fx-font-size: 5px;
+}
+
+.increment-button, .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #47BDFF;
+}
+
+.label{
+	-fx-text-fill: #47BDFF;
+}
+
+.separator{
+	-fx-background: #47BDFF;
+}

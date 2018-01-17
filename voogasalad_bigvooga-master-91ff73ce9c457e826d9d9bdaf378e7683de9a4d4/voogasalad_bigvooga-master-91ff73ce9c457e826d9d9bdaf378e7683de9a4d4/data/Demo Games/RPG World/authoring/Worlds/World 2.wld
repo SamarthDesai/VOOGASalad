@@ -1,0 +1,4392 @@
+<authoring__UI.MapDataConverter>
+  <myName>World 2</myName>
+  <gridManagers>
+    <authoring__UI.LayerDataConverter>
+      <myNumRows>23</myNumRows>
+      <myNumCols>23</myNumCols>
+      <layerNum>0</layerNum>
+      <myName>Background</myName>
+      <mySprites>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows class="linked-list"/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Light Blue Square.png</imageURL>
+          <gridPos>
+            <int>0</int>
+            <int>0</int>
+          </gridPos>
+          <width>20</width>
+          <height>20</height>
+          <UUID>87756b6b-9801-49e8-89aa-f84887eb8828</UUID>
+          <myAnimationSequences>
+            <authoring.Sprite.AnimationSequences.AuthoringAnimationSequence resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringAnimationSequence">
+              <myName>Default</myName>
+              <myImages>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Light Blue Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+              </myImages>
+            </authoring.Sprite.AnimationSequences.AuthoringAnimationSequence>
+          </myAnimationSequences>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+      </mySprites>
+    </authoring__UI.LayerDataConverter>
+    <authoring__UI.LayerDataConverter>
+      <myNumRows>23</myNumRows>
+      <myNumCols>23</myNumCols>
+      <layerNum>1</layerNum>
+      <myName>Terrain</myName>
+      <mySprites>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>0</int>
+            <int>0</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>302d8892-e43b-495e-ac8b-92492c72a1b2</UUID>
+          <myAnimationSequences>
+            <authoring.Sprite.AnimationSequences.AuthoringAnimationSequence resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringAnimationSequence">
+              <myName>Default</myName>
+              <myImages>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Sand.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+              </myImages>
+            </authoring.Sprite.AnimationSequences.AuthoringAnimationSequence>
+          </myAnimationSequences>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>0</int>
+            <int>3</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>d39e749b-7eaa-4a54-b1b0-9634e6c4332a</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>0</int>
+            <int>6</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>9f63055d-fc11-4f6b-9262-4bce720debc9</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>0</int>
+            <int>9</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>b006a41f-4105-4609-bcc9-77cb7d985773</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>0</int>
+            <int>12</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>0a7babd0-c099-4752-b282-edb9b5ea6724</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>0</int>
+            <int>15</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>b1af2fb0-616a-41af-8199-9d3a8d2428e4</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>0</int>
+            <int>18</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>cf2f3bab-329f-48ca-bdb3-ec366b5545fa</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>3</int>
+            <int>0</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>4cae1ad9-d458-4038-bb97-d8d00d437e99</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>3</int>
+            <int>3</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>637fe00e-7053-4613-87b6-0a11fccb2ec5</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>3</int>
+            <int>6</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>0ab9b9a9-94c4-442b-9aff-51fbb9338c41</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>3</int>
+            <int>9</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>d8a6e0bf-fcfe-4edb-9562-1545c2a0db51</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>3</int>
+            <int>12</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>e851a7bc-3321-41e8-992c-da8e13d6af29</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>3</int>
+            <int>15</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>33753f51-03e7-4f18-ab3d-40ac3a9ec85d</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>3</int>
+            <int>18</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>5dfeb2f9-6bd1-4290-abae-7bb219018e7f</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>6</int>
+            <int>0</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>7852b07f-5147-4741-9d74-3c4724fc0002</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>6</int>
+            <int>3</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>89255aeb-61d7-4811-becb-4d4d06405679</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>6</int>
+            <int>6</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>29f646d8-b9b0-4575-9f29-d797c22dbe6e</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>6</int>
+            <int>9</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>939133db-48ce-4c97-b570-8eda9cb6f7d8</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>6</int>
+            <int>12</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>7613e4f6-c6fa-4de7-90fd-8a7245b1f0c3</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>6</int>
+            <int>15</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>e204b5e7-742b-455f-90e2-f0ec634e33aa</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>6</int>
+            <int>18</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>bec14591-aa15-4428-b6aa-4977f89eb70e</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows reference="../../authoring__UI.SpriteDataConverter[21]/conditionRows"/>
+          <actionRows reference="../../authoring__UI.SpriteDataConverter[21]/actionRows"/>
+          <catmap reference="../../authoring__UI.SpriteDataConverter[21]/catmap"/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos reference="../../authoring__UI.SpriteDataConverter[21]/gridPos"/>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>bec14591-aa15-4428-b6aa-4977f89eb70e</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list" reference="../../authoring__UI.SpriteDataConverter[21]/spriteConditionOperations"/>
+          <spriteActionOperations class="linked-list" reference="../../authoring__UI.SpriteDataConverter[21]/spriteActionOperations"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs reference="../../authoring__UI.SpriteDataConverter[21]/myDialogs"/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>9</int>
+            <int>0</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>7833fdf3-6e40-41b3-ad6c-4dc2d3c81aab</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>9</int>
+            <int>3</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>34dc3f1d-dfc9-41a3-ad13-cb2bea536077</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>9</int>
+            <int>6</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>cc4db620-3f37-4ee7-9d38-543e0db49abb</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>9</int>
+            <int>9</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>fb5dd3f6-888c-4727-b7a3-2d13ab5f7201</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>9</int>
+            <int>12</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>70b262d1-1c25-4208-ab4c-5ffb236c50e4</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>9</int>
+            <int>15</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>0903618f-669a-4000-b559-282aee3bcd2a</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>9</int>
+            <int>18</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>c19692e9-b87c-415b-81c5-2a524170281e</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows reference="../../authoring__UI.SpriteDataConverter[29]/conditionRows"/>
+          <actionRows reference="../../authoring__UI.SpriteDataConverter[29]/actionRows"/>
+          <catmap reference="../../authoring__UI.SpriteDataConverter[29]/catmap"/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos reference="../../authoring__UI.SpriteDataConverter[29]/gridPos"/>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>c19692e9-b87c-415b-81c5-2a524170281e</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list" reference="../../authoring__UI.SpriteDataConverter[29]/spriteConditionOperations"/>
+          <spriteActionOperations class="linked-list" reference="../../authoring__UI.SpriteDataConverter[29]/spriteActionOperations"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs reference="../../authoring__UI.SpriteDataConverter[29]/myDialogs"/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>12</int>
+            <int>0</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>246b39c7-b670-403c-9b18-35796c29e0eb</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>12</int>
+            <int>3</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>959c5c85-6bc7-4a74-b2f0-97eca7e75b91</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>12</int>
+            <int>6</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>35409460-f546-4dba-a7bd-4e25b30389c2</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>12</int>
+            <int>9</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>f01b42a9-dcbf-4a1d-beec-b55ddccc0e78</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>12</int>
+            <int>12</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>68dd293d-d3c3-45ce-a89c-65483eeefe8b</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>12</int>
+            <int>15</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>fe5ab844-e8df-4779-84e2-feb485d3d988</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>12</int>
+            <int>18</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>d4f5c914-d6c4-4b85-8b9c-eb13ae9800cd</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>18</int>
+            <int>6</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>1440b52a-4ede-4a38-ac75-389a41ed43cc</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>15</int>
+            <int>0</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>fb61e167-30ad-47ed-9c78-11993e777126</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>15</int>
+            <int>3</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>8ba56659-c999-44a1-a291-4cea5b3007df</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>15</int>
+            <int>6</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>27ea93d1-18eb-4bc7-b5e5-e8e9847925e0</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>15</int>
+            <int>9</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>00844136-43e8-4da4-b8a0-f6ca554a6ceb</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>15</int>
+            <int>12</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>f258e570-e997-4bda-ac24-1f2d9682ad9a</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>15</int>
+            <int>15</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>e9aa9d1b-ffcc-422f-b0bd-25b58dd8aa2f</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>15</int>
+            <int>18</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>ec1dc07d-3204-4cde-85cd-267a5316a984</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>18</int>
+            <int>0</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>e20b74f4-8b10-43e6-9008-278b9fdf9de8</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>18</int>
+            <int>3</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>699e5603-d305-4243-ba6c-56a67966ab1d</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows reference="../../authoring__UI.SpriteDataConverter[47]/conditionRows"/>
+          <actionRows reference="../../authoring__UI.SpriteDataConverter[47]/actionRows"/>
+          <catmap reference="../../authoring__UI.SpriteDataConverter[47]/catmap"/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos reference="../../authoring__UI.SpriteDataConverter[47]/gridPos"/>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>699e5603-d305-4243-ba6c-56a67966ab1d</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list" reference="../../authoring__UI.SpriteDataConverter[47]/spriteConditionOperations"/>
+          <spriteActionOperations class="linked-list" reference="../../authoring__UI.SpriteDataConverter[47]/spriteActionOperations"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs reference="../../authoring__UI.SpriteDataConverter[47]/myDialogs"/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows reference="../../authoring__UI.SpriteDataConverter[47]/conditionRows"/>
+          <actionRows reference="../../authoring__UI.SpriteDataConverter[47]/actionRows"/>
+          <catmap reference="../../authoring__UI.SpriteDataConverter[47]/catmap"/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos reference="../../authoring__UI.SpriteDataConverter[47]/gridPos"/>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>699e5603-d305-4243-ba6c-56a67966ab1d</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list" reference="../../authoring__UI.SpriteDataConverter[47]/spriteConditionOperations"/>
+          <spriteActionOperations class="linked-list" reference="../../authoring__UI.SpriteDataConverter[47]/spriteActionOperations"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs reference="../../authoring__UI.SpriteDataConverter[47]/myDialogs"/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows reference="../../authoring__UI.SpriteDataConverter[38]/conditionRows"/>
+          <actionRows reference="../../authoring__UI.SpriteDataConverter[38]/actionRows"/>
+          <catmap reference="../../authoring__UI.SpriteDataConverter[38]/catmap"/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos reference="../../authoring__UI.SpriteDataConverter[38]/gridPos"/>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>1440b52a-4ede-4a38-ac75-389a41ed43cc</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list" reference="../../authoring__UI.SpriteDataConverter[38]/spriteConditionOperations"/>
+          <spriteActionOperations class="linked-list" reference="../../authoring__UI.SpriteDataConverter[38]/spriteActionOperations"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs reference="../../authoring__UI.SpriteDataConverter[38]/myDialogs"/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>18</int>
+            <int>9</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>1c08bbb6-6a5e-4245-9cfd-72a45ff22ddb</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>18</int>
+            <int>12</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>502d1d9a-6fab-4407-b344-1b968402ee47</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>18</int>
+            <int>15</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>b75b2093-ea1a-40e0-9575-2eabe5af3728</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos>
+            <int>18</int>
+            <int>18</int>
+          </gridPos>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>a95ac8f2-ccf2-48f6-bfd6-2cb5c3ab5f02</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows reference="../../authoring__UI.SpriteDataConverter[47]/conditionRows"/>
+          <actionRows reference="../../authoring__UI.SpriteDataConverter[47]/actionRows"/>
+          <catmap reference="../../authoring__UI.SpriteDataConverter[47]/catmap"/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos reference="../../authoring__UI.SpriteDataConverter[47]/gridPos"/>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>699e5603-d305-4243-ba6c-56a67966ab1d</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list" reference="../../authoring__UI.SpriteDataConverter[47]/spriteConditionOperations"/>
+          <spriteActionOperations class="linked-list" reference="../../authoring__UI.SpriteDataConverter[47]/spriteActionOperations"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs reference="../../authoring__UI.SpriteDataConverter[47]/myDialogs"/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows reference="../../authoring__UI.SpriteDataConverter[47]/conditionRows"/>
+          <actionRows reference="../../authoring__UI.SpriteDataConverter[47]/actionRows"/>
+          <catmap reference="../../authoring__UI.SpriteDataConverter[47]/catmap"/>
+          <inventory/>
+          <imageURL>Sand.png</imageURL>
+          <gridPos reference="../../authoring__UI.SpriteDataConverter[47]/gridPos"/>
+          <name>Sand.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>699e5603-d305-4243-ba6c-56a67966ab1d</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list" reference="../../authoring__UI.SpriteDataConverter[47]/spriteConditionOperations"/>
+          <spriteActionOperations class="linked-list" reference="../../authoring__UI.SpriteDataConverter[47]/spriteActionOperations"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs reference="../../authoring__UI.SpriteDataConverter[47]/myDialogs"/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+      </mySprites>
+    </authoring__UI.LayerDataConverter>
+    <authoring__UI.LayerDataConverter>
+      <myNumRows>23</myNumRows>
+      <myNumCols>23</myNumCols>
+      <layerNum>2</layerNum>
+      <myName>Main View</myName>
+      <mySprites>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>0</int>
+            <int>0</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>5a35bfbd-ecee-4df7-bd86-243aae4192df</UUID>
+          <myAnimationSequences>
+            <authoring.Sprite.AnimationSequences.AuthoringAnimationSequence resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringAnimationSequence">
+              <myName>Default</myName>
+              <myImages>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Cactus.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+              </myImages>
+            </authoring.Sprite.AnimationSequences.AuthoringAnimationSequence>
+          </myAnimationSequences>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>0</int>
+            <int>1</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>12e84587-937f-4de5-8eeb-20f6f2b39702</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>0</int>
+            <int>2</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>c570811e-cbef-44a8-9800-e340746240d9</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>0</int>
+            <int>3</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>58f31cc8-bbc1-478a-9a50-eb7cad88341b</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>0</int>
+            <int>4</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>34d93148-aaeb-44af-b0e4-53f09694fbb9</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>0</int>
+            <int>5</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>f57e12bb-adda-44db-89b9-422ede562172</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>0</int>
+            <int>6</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>2917f2d2-883d-4a23-b5de-763cbf871a31</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>0</int>
+            <int>7</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>36a0e4b3-4671-45dd-8285-544d87f1871f</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>0</int>
+            <int>8</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>383a88e8-7bbf-4cad-af34-b06b10479516</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>0</int>
+            <int>9</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>f245389b-16cb-48eb-b9c8-b2469a7b05fb</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>0</int>
+            <int>10</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>1e384398-c0b7-42c3-9847-001b0032e2f8</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>0</int>
+            <int>11</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>e9e8878c-cc4e-432b-a35b-c7ef976070af</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>0</int>
+            <int>12</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>c1f5f1da-1d99-47af-bbcb-f710d4e692ce</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>0</int>
+            <int>13</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>66c824b9-95c9-46d4-905a-4d478927312d</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>0</int>
+            <int>14</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>2f2b83e4-0baf-4658-b33d-2fb9f524283b</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>0</int>
+            <int>15</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>815f6928-6658-4552-a241-53ff8e7b8e3b</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>0</int>
+            <int>16</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>bf06d532-feea-4976-bd52-40e6af4118a2</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>0</int>
+            <int>17</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>99517d20-95a9-44e7-8a04-05706e0fddbb</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>0</int>
+            <int>18</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>25c36ad8-d9e6-4a1b-a387-757ee0193c5e</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>0</int>
+            <int>19</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>451289eb-e9fa-4fab-ad98-3a3a54c50771</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>0</int>
+            <int>20</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>0bf6f588-e0c9-481f-bbc7-aaf2fd37dd32</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>1</int>
+            <int>0</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>72a92250-b29f-4f42-b7a2-389ec554948a</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows>
+            <entry>
+              <engine.Condition>
+                <priorityNum>1</priorityNum>
+                <operation class="engine.operations.booleanops.KeyHeld">
+                  <check class="engine.operations.stringops.SelfString">
+                    <stored>Up</stored>
+                  </check>
+                </operation>
+              </engine.Condition>
+              <linked-list>
+                <int>4</int>
+              </linked-list>
+            </entry>
+            <entry>
+              <engine.Condition>
+                <priorityNum>1</priorityNum>
+                <operation class="engine.operations.booleanops.KeyHeld">
+                  <check class="engine.operations.stringops.SelfString">
+                    <stored>Right</stored>
+                  </check>
+                </operation>
+              </engine.Condition>
+              <linked-list>
+                <int>1</int>
+              </linked-list>
+            </entry>
+            <entry>
+              <engine.Condition>
+                <priorityNum>1</priorityNum>
+                <operation class="engine.operations.booleanops.KeyHeld">
+                  <check class="engine.operations.stringops.SelfString">
+                    <stored>Left</stored>
+                  </check>
+                </operation>
+              </engine.Condition>
+              <linked-list>
+                <int>3</int>
+              </linked-list>
+            </entry>
+            <entry>
+              <engine.Condition>
+                <priorityNum>10</priorityNum>
+                <operation class="engine.operations.booleanops.Collision">
+                  <first class="engine.operations.gameobjectops.Self"/>
+                  <second class="engine.operations.gameobjectops.Nearest">
+                    <tag class="engine.operations.stringops.SelfString">
+                      <stored>Obstacle</stored>
+                    </tag>
+                  </second>
+                </operation>
+              </engine.Condition>
+              <linked-list>
+                <int>5</int>
+              </linked-list>
+            </entry>
+            <entry>
+              <engine.Condition>
+                <priorityNum>1</priorityNum>
+                <operation class="engine.operations.booleanops.KeyHeld">
+                  <check class="engine.operations.stringops.SelfString">
+                    <stored>Down</stored>
+                  </check>
+                </operation>
+              </engine.Condition>
+              <linked-list>
+                <int>2</int>
+              </linked-list>
+            </entry>
+          </conditionRows>
+          <actionRows>
+            <engine.Actions.movement.Move>
+              <increment class="engine.operations.vectorops.BasicVector">
+                <x class="engine.operations.doubleops.DoubleVariableOf">
+                  <varName class="engine.operations.stringops.SelfString">
+                    <stored>speed</stored>
+                  </varName>
+                  <object class="engine.operations.gameobjectops.Self"/>
+                </x>
+                <y class="engine.operations.doubleops.Value">
+                  <value>0.0</value>
+                </y>
+              </increment>
+              <object class="engine.operations.gameobjectops.Self"/>
+            </engine.Actions.movement.Move>
+            <engine.Actions.movement.Move>
+              <increment class="engine.operations.vectorops.BasicVector">
+                <x class="engine.operations.doubleops.Value">
+                  <value>0.0</value>
+                </x>
+                <y class="engine.operations.doubleops.DoubleVariableOf">
+                  <varName class="engine.operations.stringops.SelfString">
+                    <stored>speed</stored>
+                  </varName>
+                  <object class="engine.operations.gameobjectops.Self"/>
+                </y>
+              </increment>
+              <object class="engine.operations.gameobjectops.Self"/>
+            </engine.Actions.movement.Move>
+            <engine.Actions.movement.Move>
+              <increment class="engine.operations.vectorops.BasicVector">
+                <x class="engine.operations.doubleops.Product">
+                  <first class="engine.operations.doubleops.Value">
+                    <value>-1.0</value>
+                  </first>
+                  <second class="engine.operations.doubleops.DoubleVariableOf">
+                    <varName class="engine.operations.stringops.SelfString">
+                      <stored>speed</stored>
+                    </varName>
+                    <object class="engine.operations.gameobjectops.Self"/>
+                  </second>
+                </x>
+                <y class="engine.operations.doubleops.Value">
+                  <value>0.0</value>
+                </y>
+              </increment>
+              <object class="engine.operations.gameobjectops.Self"/>
+            </engine.Actions.movement.Move>
+            <engine.Actions.movement.Move>
+              <increment class="engine.operations.vectorops.BasicVector">
+                <x class="engine.operations.doubleops.Value">
+                  <value>0.0</value>
+                </x>
+                <y class="engine.operations.doubleops.Product">
+                  <first class="engine.operations.doubleops.Value">
+                    <value>-1.0</value>
+                  </first>
+                  <second class="engine.operations.doubleops.DoubleVariableOf">
+                    <varName class="engine.operations.stringops.SelfString">
+                      <stored>speed</stored>
+                    </varName>
+                    <object class="engine.operations.gameobjectops.Self"/>
+                  </second>
+                </y>
+              </increment>
+              <object class="engine.operations.gameobjectops.Self"/>
+            </engine.Actions.movement.Move>
+            <engine.Actions.movement.RemoveIntersection/>
+          </actionRows>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list>
+                <authoring.Sprite.Parameters.DoubleSpriteParameter>
+                  <string>speed</string>
+                  <double>10.0</double>
+                </authoring.Sprite.Parameters.DoubleSpriteParameter>
+              </list>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>UniqueSprite0826599402514164.png</imageURL>
+          <gridPos>
+            <int>1</int>
+            <int>2</int>
+          </gridPos>
+          <name>Harold</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>cb555cab-4616-452a-8bfd-e938f365f225</UUID>
+          <myAnimationSequences>
+            <authoring.Sprite.AnimationSequences.AuthoringAnimationSequence resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringAnimationSequence">
+              <myName>Default</myName>
+              <myImages>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>UniqueSprite0826599402514164.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+              </myImages>
+            </authoring.Sprite.AnimationSequences.AuthoringAnimationSequence>
+          </myAnimationSequences>
+          <spriteConditionOperations class="linked-list">
+            <string>Key is Held</string>
+            <string>Key is Held</string>
+            <string>Collision Between</string>
+            <string>Key is Held</string>
+            <string>Key is Held</string>
+          </spriteConditionOperations>
+          <spriteActionOperations class="linked-list">
+            <linked-list>
+              <string>Movement</string>
+              <string>Move By</string>
+            </linked-list>
+            <linked-list>
+              <string>Movement</string>
+              <string>Move By</string>
+            </linked-list>
+            <linked-list>
+              <string>Movement</string>
+              <string>Move By</string>
+            </linked-list>
+            <linked-list>
+              <string>Movement</string>
+              <string>Move By</string>
+            </linked-list>
+            <linked-list>
+              <string>Movement</string>
+              <string>Remove Intersection</string>
+            </linked-list>
+          </spriteActionOperations>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows reference="../../authoring__UI.SpriteDataConverter[23]/conditionRows"/>
+          <actionRows reference="../../authoring__UI.SpriteDataConverter[23]/actionRows"/>
+          <catmap reference="../../authoring__UI.SpriteDataConverter[23]/catmap"/>
+          <inventory/>
+          <imageURL>UniqueSprite0826599402514164.png</imageURL>
+          <gridPos reference="../../authoring__UI.SpriteDataConverter[23]/gridPos"/>
+          <name>Harold</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>cb555cab-4616-452a-8bfd-e938f365f225</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter[23]/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list" reference="../../authoring__UI.SpriteDataConverter[23]/spriteConditionOperations"/>
+          <spriteActionOperations class="linked-list" reference="../../authoring__UI.SpriteDataConverter[23]/spriteActionOperations"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs reference="../../authoring__UI.SpriteDataConverter[23]/myDialogs"/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>1</int>
+            <int>5</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>b02ae3be-66b3-475b-80a4-3e21568f92b0</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows reference="../../authoring__UI.SpriteDataConverter[25]/conditionRows"/>
+          <actionRows reference="../../authoring__UI.SpriteDataConverter[25]/actionRows"/>
+          <catmap reference="../../authoring__UI.SpriteDataConverter[25]/catmap"/>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos reference="../../authoring__UI.SpriteDataConverter[25]/gridPos"/>
+          <name>Cactus.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>b02ae3be-66b3-475b-80a4-3e21568f92b0</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list" reference="../../authoring__UI.SpriteDataConverter[25]/spriteConditionOperations"/>
+          <spriteActionOperations class="linked-list" reference="../../authoring__UI.SpriteDataConverter[25]/spriteActionOperations"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs reference="../../authoring__UI.SpriteDataConverter[25]/myDialogs"/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>1</int>
+            <int>20</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>19d299ed-c47e-4a7e-ab0e-ff8fc0794f6e</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>2</int>
+            <int>0</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>9c394b10-afd7-4308-9826-2be5a706347c</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows reference="../../authoring__UI.SpriteDataConverter[25]/conditionRows"/>
+          <actionRows reference="../../authoring__UI.SpriteDataConverter[25]/actionRows"/>
+          <catmap reference="../../authoring__UI.SpriteDataConverter[25]/catmap"/>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos reference="../../authoring__UI.SpriteDataConverter[25]/gridPos"/>
+          <name>Cactus.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>b02ae3be-66b3-475b-80a4-3e21568f92b0</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list" reference="../../authoring__UI.SpriteDataConverter[25]/spriteConditionOperations"/>
+          <spriteActionOperations class="linked-list" reference="../../authoring__UI.SpriteDataConverter[25]/spriteActionOperations"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs reference="../../authoring__UI.SpriteDataConverter[25]/myDialogs"/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>2</int>
+            <int>20</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>fc28f7cb-e77d-4bca-9ce4-5a36f6225f0c</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>3</int>
+            <int>0</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>84cb37b4-e95a-461f-aa31-0385566f12d1</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows reference="../../authoring__UI.SpriteDataConverter[25]/conditionRows"/>
+          <actionRows reference="../../authoring__UI.SpriteDataConverter[25]/actionRows"/>
+          <catmap reference="../../authoring__UI.SpriteDataConverter[25]/catmap"/>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos reference="../../authoring__UI.SpriteDataConverter[25]/gridPos"/>
+          <name>Cactus.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>b02ae3be-66b3-475b-80a4-3e21568f92b0</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list" reference="../../authoring__UI.SpriteDataConverter[25]/spriteConditionOperations"/>
+          <spriteActionOperations class="linked-list" reference="../../authoring__UI.SpriteDataConverter[25]/spriteActionOperations"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs reference="../../authoring__UI.SpriteDataConverter[25]/myDialogs"/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>3</int>
+            <int>20</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>c3a91d00-1b64-4fe6-aa98-6974e1eac922</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>4</int>
+            <int>0</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>26b57ff9-b924-4f76-8d92-d02352f4681b</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows reference="../../authoring__UI.SpriteDataConverter/conditionRows"/>
+          <actionRows reference="../../authoring__UI.SpriteDataConverter/actionRows"/>
+          <catmap reference="../../authoring__UI.SpriteDataConverter/catmap"/>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos reference="../../authoring__UI.SpriteDataConverter/gridPos"/>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>5a35bfbd-ecee-4df7-bd86-243aae4192df</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list" reference="../../authoring__UI.SpriteDataConverter/spriteConditionOperations"/>
+          <spriteActionOperations class="linked-list" reference="../../authoring__UI.SpriteDataConverter/spriteActionOperations"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs reference="../../authoring__UI.SpriteDataConverter/myDialogs"/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>4</int>
+            <int>14</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>5bff9a3f-f95d-4c68-90cb-d4a8e33cecd9</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>4</int>
+            <int>20</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>a050ad83-8a27-4a56-bd52-8778bcdbf18c</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>5</int>
+            <int>0</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>8b29db4a-0bf1-4814-93ff-72188a2e6bc3</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows>
+            <entry>
+              <engine.Condition>
+                <priorityNum>1</priorityNum>
+                <operation class="engine.operations.booleanops.KeyHeld">
+                  <check class="engine.operations.stringops.SelfString">
+                    <stored>D</stored>
+                  </check>
+                </operation>
+              </engine.Condition>
+              <linked-list>
+                <int>1</int>
+              </linked-list>
+            </entry>
+            <entry>
+              <engine.Condition>
+                <priorityNum>1</priorityNum>
+                <operation class="engine.operations.booleanops.KeyHeld">
+                  <check class="engine.operations.stringops.SelfString">
+                    <stored>A</stored>
+                  </check>
+                </operation>
+              </engine.Condition>
+              <linked-list>
+                <int>3</int>
+              </linked-list>
+            </entry>
+            <entry>
+              <engine.Condition>
+                <priorityNum>1</priorityNum>
+                <operation class="engine.operations.booleanops.KeyHeld">
+                  <check class="engine.operations.stringops.SelfString">
+                    <stored>W</stored>
+                  </check>
+                </operation>
+              </engine.Condition>
+              <linked-list>
+                <int>4</int>
+              </linked-list>
+            </entry>
+            <entry>
+              <engine.Condition>
+                <priorityNum>1</priorityNum>
+                <operation class="engine.operations.booleanops.KeyHeld">
+                  <check class="engine.operations.stringops.SelfString">
+                    <stored>S</stored>
+                  </check>
+                </operation>
+              </engine.Condition>
+              <linked-list>
+                <int>2</int>
+              </linked-list>
+            </entry>
+            <entry>
+              <engine.Condition>
+                <priorityNum>1</priorityNum>
+                <operation class="engine.operations.booleanops.BooleanValue">
+                  <value>true</value>
+                </operation>
+              </engine.Condition>
+              <linked-list>
+                <int>5</int>
+                <int>6</int>
+              </linked-list>
+            </entry>
+          </conditionRows>
+          <actionRows>
+            <engine.Actions.movement.Move>
+              <increment class="engine.operations.vectorops.BasicVector">
+                <x class="engine.operations.doubleops.Value">
+                  <value>5.0</value>
+                </x>
+                <y class="engine.operations.doubleops.Value">
+                  <value>0.0</value>
+                </y>
+              </increment>
+              <object class="engine.operations.gameobjectops.Self"/>
+            </engine.Actions.movement.Move>
+            <engine.Actions.movement.Move>
+              <increment class="engine.operations.vectorops.BasicVector">
+                <x class="engine.operations.doubleops.Value">
+                  <value>0.0</value>
+                </x>
+                <y class="engine.operations.doubleops.Value">
+                  <value>5.0</value>
+                </y>
+              </increment>
+              <object class="engine.operations.gameobjectops.Self"/>
+            </engine.Actions.movement.Move>
+            <engine.Actions.movement.Move>
+              <increment class="engine.operations.vectorops.BasicVector">
+                <x class="engine.operations.doubleops.Value">
+                  <value>-5.0</value>
+                </x>
+                <y class="engine.operations.doubleops.Value">
+                  <value>0.0</value>
+                </y>
+              </increment>
+              <object class="engine.operations.gameobjectops.Self"/>
+            </engine.Actions.movement.Move>
+            <engine.Actions.movement.Move>
+              <increment class="engine.operations.vectorops.BasicVector">
+                <x class="engine.operations.doubleops.Value">
+                  <value>0.0</value>
+                </x>
+                <y class="engine.operations.doubleops.Value">
+                  <value>-5.0</value>
+                </y>
+              </increment>
+              <object class="engine.operations.gameobjectops.Self"/>
+            </engine.Actions.movement.Move>
+            <engine.Actions.sizing.SetWidthCentered>
+              <object class="engine.operations.gameobjectops.Self"/>
+              <newWidth class="engine.operations.doubleops.Value">
+                <value>0.01</value>
+              </newWidth>
+            </engine.Actions.sizing.SetWidthCentered>
+            <engine.Actions.sizing.SetHeightCentered>
+              <object class="engine.operations.gameobjectops.Self"/>
+              <newHeight class="engine.operations.doubleops.Value">
+                <value>0.01</value>
+              </newHeight>
+            </engine.Actions.sizing.SetHeightCentered>
+          </actionRows>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>explicit-warning.png</imageURL>
+          <gridPos>
+            <int>6</int>
+            <int>7</int>
+          </gridPos>
+          <name>explicit-warning.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>22df7e3d-f58b-4133-9678-175a25b37ac4</UUID>
+          <myAnimationSequences>
+            <authoring.Sprite.AnimationSequences.AuthoringAnimationSequence resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringAnimationSequence">
+              <myName>Default</myName>
+              <myImages>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>explicit-warning.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+              </myImages>
+            </authoring.Sprite.AnimationSequences.AuthoringAnimationSequence>
+          </myAnimationSequences>
+          <spriteConditionOperations class="linked-list">
+            <string>Key is Held</string>
+            <string>Key is Held</string>
+            <string>Key is Held</string>
+            <string>Key is Held</string>
+            <string>Input a Boolean</string>
+          </spriteConditionOperations>
+          <spriteActionOperations class="linked-list">
+            <linked-list>
+              <string>Movement</string>
+              <string>Move By</string>
+            </linked-list>
+            <linked-list>
+              <string>Movement</string>
+              <string>Move By</string>
+            </linked-list>
+            <linked-list>
+              <string>Movement</string>
+              <string>Move By</string>
+            </linked-list>
+            <linked-list>
+              <string>Movement</string>
+              <string>Move By</string>
+            </linked-list>
+            <linked-list>
+              <string>Sprite Sizing</string>
+              <string>Set Width (centered)</string>
+            </linked-list>
+            <linked-list>
+              <string>Sprite Sizing</string>
+              <string>Set Height (centered)</string>
+            </linked-list>
+          </spriteActionOperations>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>camera</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>5</int>
+            <int>20</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>e83febba-bb96-4d82-87df-6a08c69c4491</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>6</int>
+            <int>0</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>cf9de3a8-0f3c-484b-8f51-9f9aa321fe97</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows reference="../../authoring__UI.SpriteDataConverter[39]/conditionRows"/>
+          <actionRows reference="../../authoring__UI.SpriteDataConverter[39]/actionRows"/>
+          <catmap reference="../../authoring__UI.SpriteDataConverter[39]/catmap"/>
+          <inventory/>
+          <imageURL>explicit-warning.png</imageURL>
+          <gridPos reference="../../authoring__UI.SpriteDataConverter[39]/gridPos"/>
+          <name>explicit-warning.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>22df7e3d-f58b-4133-9678-175a25b37ac4</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter[39]/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list" reference="../../authoring__UI.SpriteDataConverter[39]/spriteConditionOperations"/>
+          <spriteActionOperations class="linked-list" reference="../../authoring__UI.SpriteDataConverter[39]/spriteActionOperations"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs reference="../../authoring__UI.SpriteDataConverter[39]/myDialogs"/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>camera</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>6</int>
+            <int>20</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>62d88b0a-bc3d-4618-96a5-16b8e2faba2f</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>7</int>
+            <int>0</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>7b69574c-3bda-4aac-8a25-a5f2c65d22ca</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>7</int>
+            <int>20</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>c1212c59-0086-4ec1-93de-ba963faf5219</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>8</int>
+            <int>0</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>4c5d4e83-3fd7-41e9-beac-69507cb9409b</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>8</int>
+            <int>2</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>2dd64ea1-d86e-4796-94bb-1dfcfd281dfa</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>8</int>
+            <int>20</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>379c7e7f-cbd7-4fbd-85f4-98cb56e51f64</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>9</int>
+            <int>0</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>413d74d9-007f-43eb-9fd6-fe36e463d9f3</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>9</int>
+            <int>20</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>2ce0501f-26ae-4acd-9993-82f2d7e6cd49</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>10</int>
+            <int>0</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>632445a1-17a5-46ae-b6cb-9da68ad5eae9</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>10</int>
+            <int>9</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>64473906-415c-4086-9bf9-5223e1c32a04</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>10</int>
+            <int>16</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>1169d91e-5a66-426d-8aba-b74fa2ed589b</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>10</int>
+            <int>20</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>092b47fa-7952-467d-9481-517012413680</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>11</int>
+            <int>0</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>f339cfa3-f294-42f2-baa5-582fda2024b9</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>11</int>
+            <int>20</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>3d1a467e-f89e-4e7b-97e4-a8b26f9d0dc6</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>12</int>
+            <int>0</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>4d3343c5-ea26-4670-ad0b-2681f852389a</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>12</int>
+            <int>20</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>9255759f-2fd0-4c80-8631-bd1d88162077</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>13</int>
+            <int>0</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>50aba8cf-3b04-45d3-b7ce-404ed797a243</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows reference="../../authoring__UI.SpriteDataConverter[53]/conditionRows"/>
+          <actionRows reference="../../authoring__UI.SpriteDataConverter[53]/actionRows"/>
+          <catmap reference="../../authoring__UI.SpriteDataConverter[53]/catmap"/>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos reference="../../authoring__UI.SpriteDataConverter[53]/gridPos"/>
+          <name>Cactus.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>1169d91e-5a66-426d-8aba-b74fa2ed589b</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list" reference="../../authoring__UI.SpriteDataConverter[53]/spriteConditionOperations"/>
+          <spriteActionOperations class="linked-list" reference="../../authoring__UI.SpriteDataConverter[53]/spriteActionOperations"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs reference="../../authoring__UI.SpriteDataConverter[53]/myDialogs"/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>13</int>
+            <int>20</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>ae0cb53e-5b48-4d10-979a-e730c6a2f3bd</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>14</int>
+            <int>0</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>63fda80b-04ec-4b0d-b815-9cafdeea16c8</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>14</int>
+            <int>20</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>5ad434a0-cdd5-4371-b693-1badcf35cf0b</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>15</int>
+            <int>0</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>2ba56a70-87ce-46c8-af34-381f82974bf7</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>15</int>
+            <int>20</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>9ba281a8-2e60-4152-b8b2-7da9f54c948a</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>16</int>
+            <int>0</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>38e178c8-dcc5-430f-bca4-9aabfc6446be</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>16</int>
+            <int>4</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>c557572e-07f0-49a0-b426-e16b5b66a5fa</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>rcd.jpg</imageURL>
+          <gridPos>
+            <int>17</int>
+            <int>17</int>
+          </gridPos>
+          <name>rcd.jpg</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>44fdf24c-b016-4061-a4cf-cd1f0ce2570b</UUID>
+          <myAnimationSequences>
+            <authoring.Sprite.AnimationSequences.AuthoringAnimationSequence resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringAnimationSequence">
+              <myName>Default</myName>
+              <myImages>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>rcd.jpg</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+              </myImages>
+            </authoring.Sprite.AnimationSequences.AuthoringAnimationSequence>
+          </myAnimationSequences>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>16</int>
+            <int>20</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>6d841b6f-b8db-4243-8d16-0f26008e7575</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>17</int>
+            <int>0</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>5375d087-6fac-476d-ad39-a6ad43421ded</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows reference="../../authoring__UI.SpriteDataConverter[68]/conditionRows"/>
+          <actionRows reference="../../authoring__UI.SpriteDataConverter[68]/actionRows"/>
+          <catmap reference="../../authoring__UI.SpriteDataConverter[68]/catmap"/>
+          <inventory/>
+          <imageURL>rcd.jpg</imageURL>
+          <gridPos reference="../../authoring__UI.SpriteDataConverter[68]/gridPos"/>
+          <name>rcd.jpg</name>
+          <width>3</width>
+          <height>3</height>
+          <UUID>44fdf24c-b016-4061-a4cf-cd1f0ce2570b</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter[68]/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list" reference="../../authoring__UI.SpriteDataConverter[68]/spriteConditionOperations"/>
+          <spriteActionOperations class="linked-list" reference="../../authoring__UI.SpriteDataConverter[68]/spriteActionOperations"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs reference="../../authoring__UI.SpriteDataConverter[68]/myDialogs"/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>17</int>
+            <int>20</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>1db62ec1-1796-4af2-92bb-3bcd5afb6b8a</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>18</int>
+            <int>0</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>bb93755a-f870-4b48-bdee-178141f98980</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>18</int>
+            <int>20</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>89633f8a-7948-4208-a8cb-d51bf7f60a77</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>19</int>
+            <int>0</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>9c543d09-ae42-4130-99dd-907a96c8902c</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>19</int>
+            <int>20</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>2a0f3a88-f1d4-4528-88ed-23e17f3e711a</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>20</int>
+            <int>0</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>c9e93c53-5921-4c62-97b6-76152a86e76e</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>20</int>
+            <int>1</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>d167158c-ae44-40b6-ac6e-aa7a282d4c5e</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>20</int>
+            <int>2</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>f51006e0-6138-45e0-b734-4bc181405af5</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>20</int>
+            <int>3</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>47f20bd5-cb1e-4e05-805a-0c167b3d877d</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>20</int>
+            <int>4</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>d779ffbc-9f79-43a7-8ad4-2193cc86e2b4</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>20</int>
+            <int>5</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>a4fe1502-c654-425d-b0ab-2ae8df6baf0a</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>20</int>
+            <int>6</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>e97168a2-1121-49ad-aac8-d21170055517</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>20</int>
+            <int>7</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>617989d7-dff1-441a-9cb1-f9184f202c40</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>20</int>
+            <int>8</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>0b049e55-d709-42d8-be16-446fbebc4c25</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>20</int>
+            <int>9</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>31ff0b96-7a10-444c-b4ad-d40880c902e5</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>20</int>
+            <int>10</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>e910301b-9d4b-4703-bbe1-ce819d45f27e</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>20</int>
+            <int>11</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>0b14cdf7-14dc-4513-a339-ab8869a9a31d</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>20</int>
+            <int>12</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>b4381bfe-4381-4448-8b98-98ddc5b188e3</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>20</int>
+            <int>13</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>e8d07893-4a89-4eb7-a836-1695c5fc8267</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>20</int>
+            <int>14</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>f4b8c36f-f191-447a-a052-9dda94ff9930</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>20</int>
+            <int>15</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>d9ba78e0-35e2-4310-bb7a-50dea289ad4f</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>20</int>
+            <int>16</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>783d4d19-85f9-4270-9eb7-99b9488be042</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>20</int>
+            <int>17</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>8a588b7d-a551-47f1-8e19-bd342dd9fca3</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>20</int>
+            <int>18</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>35142810-a367-48b4-9e6d-51ad78f302da</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>20</int>
+            <int>19</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>dcf09cdb-6772-41bd-a636-5de09054e2e7</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Cactus.png</imageURL>
+          <gridPos>
+            <int>20</int>
+            <int>20</int>
+          </gridPos>
+          <name>Cactus.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>eac16caa-d7ec-4206-9ddf-d05486113557</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <renderingPreference>0</renderingPreference>
+          <myDialogs/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Obstacle</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+      </mySprites>
+    </authoring__UI.LayerDataConverter>
+    <authoring__UI.LayerDataConverter>
+      <myNumRows>23</myNumRows>
+      <myNumCols>23</myNumCols>
+      <layerNum>3</layerNum>
+      <myName>Panels</myName>
+      <mySprites/>
+    </authoring__UI.LayerDataConverter>
+  </gridManagers>
+</authoring__UI.MapDataConverter>

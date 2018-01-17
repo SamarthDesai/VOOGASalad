@@ -1,0 +1,27 @@
+.toggle-button {
+	-fx-font-size: 30px;
+	-fx-font-family: Segoe UI;
+	-fx-text-fill: #47BDFF;
+	-fx-border-style: solid inside;
+    -fx-border-width: 2;
+    -fx-border-color: #47BDFF;
+    -fx-background-insets: 1px;
+    -fx-background-color: transparent;
+}
+
+.toggle-button:visited {
+	-fx-background-color: 
+        #FFCD3C;
+}
+.toggle-button:hover {
+    -fx-background-color: 
+        #FFCD3C;
+}
+.toggle-button:active {
+    -fx-background-color: 
+        #FFCD3C;
+}
+.toggle-button:selected {
+	 -fx-background-color: 
+        #FFCD3C;
+}

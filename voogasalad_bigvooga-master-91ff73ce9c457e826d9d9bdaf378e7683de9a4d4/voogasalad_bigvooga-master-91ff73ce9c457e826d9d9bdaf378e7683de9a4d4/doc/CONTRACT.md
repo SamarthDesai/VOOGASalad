@@ -1,0 +1,1 @@
+Be willing to attend weekly meeting. Write code each week -- no excuses. Even if it's only a few lines of code, it'll get you thinking about how to address your current problems. Don't merge to master if you have issues in your code. Don't be condescending when explaining things. Be positive. Constructive criticism.

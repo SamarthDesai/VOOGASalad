@@ -1,0 +1,34 @@
+<authoring__UI.SpriteDataConverter>
+  <conditionRows/>
+  <actionRows class="linked-list"/>
+  <catmap/>
+  <inventory/>
+  <imageURL>Sand.png</imageURL>
+  <gridPos>
+    <int>0</int>
+    <int>0</int>
+  </gridPos>
+  <name>Sand.png</name>
+  <width>3</width>
+  <height>3</height>
+  <UUID>24d24e25-a107-4843-b54c-c6eaf9f5dd02</UUID>
+  <myAnimationSequences>
+    <authoring.Sprite.AnimationSequences.AuthoringAnimationSequence resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringAnimationSequence">
+      <myName>Default</myName>
+      <myImages>
+        <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+          <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+            <imagePath>Sand.png</imagePath>
+          </myImage>
+        </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+      </myImages>
+    </authoring.Sprite.AnimationSequences.AuthoringAnimationSequence>
+  </myAnimationSequences>
+  <spriteConditionOperations class="linked-list"/>
+  <spriteActionOperations class="linked-list"/>
+  <renderingPreference>0</renderingPreference>
+  <myDialogs/>
+  <mySavePath>/Users/aaronpaskin/Desktop/Good Vooga/RPG World/authoring/Sprites/CustomSprites/General/Sand.png</mySavePath>
+  <spriteType>SpriteObject</spriteType>
+  <tags/>
+</authoring__UI.SpriteDataConverter>

@@ -1,0 +1,418 @@
+<authoring__UI.MapDataConverter>
+  <myName>Space</myName>
+  <gridManagers>
+    <authoring__UI.LayerDataConverter>
+      <myNumRows>20</myNumRows>
+      <myNumCols>20</myNumCols>
+      <layerNum>0</layerNum>
+      <myName>Background</myName>
+      <mySprites>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows class="linked-list"/>
+          <catmap/>
+          <inventory/>
+          <imageURL>hs-2010-13-a-full_jpg.jpg</imageURL>
+          <gridPos>
+            <int>0</int>
+            <int>0</int>
+          </gridPos>
+          <width>20</width>
+          <height>20</height>
+          <UUID>4208e18f-8aa3-4e17-b838-7412e4e44e76</UUID>
+          <myAnimationSequences>
+            <authoring.Sprite.AnimationSequences.AuthoringAnimationSequence resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringAnimationSequence">
+              <myName>Default</myName>
+              <myImages>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>hs-2010-13-a-full_jpg.jpg</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>hs-2010-13-a-full_jpg.jpg</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+              </myImages>
+            </authoring.Sprite.AnimationSequences.AuthoringAnimationSequence>
+          </myAnimationSequences>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+      </mySprites>
+    </authoring__UI.LayerDataConverter>
+    <authoring__UI.LayerDataConverter>
+      <myNumRows>20</myNumRows>
+      <myNumCols>20</myNumCols>
+      <layerNum>1</layerNum>
+      <myName>Terrain</myName>
+      <mySprites/>
+    </authoring__UI.LayerDataConverter>
+    <authoring__UI.LayerDataConverter>
+      <myNumRows>20</myNumRows>
+      <myNumCols>20</myNumCols>
+      <layerNum>2</layerNum>
+      <myName>Main View</myName>
+      <mySprites/>
+    </authoring__UI.LayerDataConverter>
+    <authoring__UI.LayerDataConverter>
+      <myNumRows>20</myNumRows>
+      <myNumCols>20</myNumCols>
+      <layerNum>3</layerNum>
+      <myName>Panels</myName>
+      <mySprites>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>rock.png</imageURL>
+          <gridPos>
+            <int>7</int>
+            <int>0</int>
+          </gridPos>
+          <name>Rock</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>8cf49f30-dad1-4a00-87ba-0656122fab36</UUID>
+          <myAnimationSequences>
+            <authoring.Sprite.AnimationSequences.AuthoringAnimationSequence resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringAnimationSequence">
+              <myName>Default</myName>
+              <myImages>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>rock.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>rock.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>rock.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>rock.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>rock.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>rock.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>rock.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>rock.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>rock.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>rock.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>rock.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>rock.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>rock.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+              </myImages>
+            </authoring.Sprite.AnimationSequences.AuthoringAnimationSequence>
+          </myAnimationSequences>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>rock.png</imageURL>
+          <gridPos>
+            <int>7</int>
+            <int>1</int>
+          </gridPos>
+          <name>Rock</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>ca90f0a3-6e96-4354-b797-a77224f3579b</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>rock.png</imageURL>
+          <gridPos>
+            <int>7</int>
+            <int>2</int>
+          </gridPos>
+          <name>Rock</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>d6bb7478-3ffa-4a17-939d-ee3c1d28938d</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>rock.png</imageURL>
+          <gridPos>
+            <int>7</int>
+            <int>3</int>
+          </gridPos>
+          <name>Rock</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>9e9a43ec-16b6-4bee-8435-14a4d65a95ca</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>rock.png</imageURL>
+          <gridPos>
+            <int>7</int>
+            <int>4</int>
+          </gridPos>
+          <name>Rock</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>d718d6d7-778d-4170-94fc-69ff3aa86bf4</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Rock</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>rock.png</imageURL>
+          <gridPos>
+            <int>7</int>
+            <int>5</int>
+          </gridPos>
+          <name>Rock</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>68750270-1af3-4111-abdc-ca8eb194ac66</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>rock.png</imageURL>
+          <gridPos>
+            <int>7</int>
+            <int>6</int>
+          </gridPos>
+          <name>Rock</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>84cf0b4f-e73d-49cb-94c1-e2085834eb9f</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>rock.png</imageURL>
+          <gridPos>
+            <int>7</int>
+            <int>7</int>
+          </gridPos>
+          <name>Rock</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>e449169c-0161-43c1-9c69-3a024f0d241a</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>rock.png</imageURL>
+          <gridPos>
+            <int>7</int>
+            <int>8</int>
+          </gridPos>
+          <name>Rock</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>4d273f0d-bace-4cee-9fe9-a8f9976f5821</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>rock.png</imageURL>
+          <gridPos>
+            <int>7</int>
+            <int>9</int>
+          </gridPos>
+          <name>Rock</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>cbb5ce0b-a32b-46c5-9827-5901a49fba81</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>rock.png</imageURL>
+          <gridPos>
+            <int>7</int>
+            <int>10</int>
+          </gridPos>
+          <name>Rock</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>5570a080-adc9-4f4b-ac89-f11087c8d578</UUID>
+          <myAnimationSequences reference="../../authoring__UI.SpriteDataConverter/myAnimationSequences"/>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+      </mySprites>
+    </authoring__UI.LayerDataConverter>
+  </gridManagers>
+</authoring__UI.MapDataConverter>

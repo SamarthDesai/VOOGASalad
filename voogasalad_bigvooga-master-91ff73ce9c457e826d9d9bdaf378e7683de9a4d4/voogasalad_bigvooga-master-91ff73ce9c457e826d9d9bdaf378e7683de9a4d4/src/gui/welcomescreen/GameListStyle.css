@@ -1,0 +1,51 @@
+.tree-view, .hbox, .vbox {
+	-fx-background-color: #001E32;
+}
+
+.tree-cell {
+	-fx-background-color: #001E32;
+	-fx-border-color: transparent;
+}
+
+.tree-cell:expanded {
+	-fx-border-color: transparent;
+}
+
+.tree-cell > .tree-disclosure-node > .arrow {
+	-fx-background-color: transparent;	
+	-fx-font-size: 60;
+}
+
+.label {
+	-fx-text-fill: #47BDFF;
+    -fx-font-family: "Segoe UI";
+    -fx-font-size: 60;
+}
+
+
+.button {
+	-fx-font-size: 20px;
+	-fx-font-family: Segoe UI;
+	-fx-text-fill: #47BDFF;
+	-fx-border-style: solid inside;
+    -fx-border-width: 2;
+    -fx-border-color: #47BDFF;
+    -fx-background-insets: 1px;
+    -fx-background-color: transparent;
+}
+
+.button:hover {
+    -fx-background-color: 
+        #FFCD3C;
+}
+
+#title {
+	-fx-background-color: #001E32;
+	-fx-border-width: 1px;
+}
+
+#title:hover {
+	-fx-background-color: #003D66;
+}
+
+

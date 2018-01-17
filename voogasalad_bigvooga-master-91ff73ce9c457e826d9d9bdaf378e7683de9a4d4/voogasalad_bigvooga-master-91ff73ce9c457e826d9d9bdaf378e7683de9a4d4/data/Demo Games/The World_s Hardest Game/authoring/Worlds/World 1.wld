@@ -1,0 +1,1580 @@
+<authoring__UI.MapDataConverter>
+  <myName>World 1</myName>
+  <gridManagers>
+    <authoring__UI.LayerDataConverter>
+      <myNumRows>20</myNumRows>
+      <myNumCols>22</myNumCols>
+      <layerNum>0</layerNum>
+      <myName>Background</myName>
+      <mySprites/>
+    </authoring__UI.LayerDataConverter>
+    <authoring__UI.LayerDataConverter>
+      <myNumRows>20</myNumRows>
+      <myNumCols>22</myNumCols>
+      <layerNum>1</layerNum>
+      <myName>Terrain</myName>
+      <mySprites>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap/>
+          <inventory/>
+          <imageURL>Light Blue Square.png</imageURL>
+          <gridPos>
+            <int>2</int>
+            <int>2</int>
+          </gridPos>
+          <name>Light Blue Square.png</name>
+          <width>15</width>
+          <height>9</height>
+          <UUID>175f3716-341d-4d8a-afc0-ff526488d006</UUID>
+          <myAnimationSequences>
+            <authoring.Sprite.AnimationSequences.AuthoringAnimationSequence resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringAnimationSequence">
+              <myName>Default</myName>
+              <myImages>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Light Blue Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Light Blue Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Light Blue Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Light Blue Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Light Blue Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Light Blue Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Light Blue Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+              </myImages>
+            </authoring.Sprite.AnimationSequences.AuthoringAnimationSequence>
+          </myAnimationSequences>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+      </mySprites>
+    </authoring__UI.LayerDataConverter>
+    <authoring__UI.LayerDataConverter>
+      <myNumRows>20</myNumRows>
+      <myNumCols>22</myNumCols>
+      <layerNum>2</layerNum>
+      <myName>Main View</myName>
+      <mySprites/>
+    </authoring__UI.LayerDataConverter>
+    <authoring__UI.LayerDataConverter>
+      <myNumRows>20</myNumRows>
+      <myNumCols>22</myNumCols>
+      <layerNum>3</layerNum>
+      <myName>Panels</myName>
+      <mySprites>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Black Square.png</imageURL>
+          <gridPos>
+            <int>1</int>
+            <int>1</int>
+          </gridPos>
+          <name>Black Square.png</name>
+          <width>20</width>
+          <height>1</height>
+          <UUID>651f4b55-a6d7-412e-b93a-8b8c4de2e90e</UUID>
+          <myAnimationSequences>
+            <authoring.Sprite.AnimationSequences.AuthoringAnimationSequence resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringAnimationSequence">
+              <myName>Default</myName>
+              <myImages>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Black Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Black Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Black Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Black Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Black Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Black Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+              </myImages>
+            </authoring.Sprite.AnimationSequences.AuthoringAnimationSequence>
+          </myAnimationSequences>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Wall</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Black Square.png</imageURL>
+          <gridPos>
+            <int>2</int>
+            <int>1</int>
+          </gridPos>
+          <name>Black Square.png</name>
+          <width>1</width>
+          <height>9</height>
+          <UUID>51a78cee-f961-4ad1-955a-21748b2bfb3b</UUID>
+          <myAnimationSequences>
+            <authoring.Sprite.AnimationSequences.AuthoringAnimationSequence resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringAnimationSequence">
+              <myName>Default</myName>
+              <myImages>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Black Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Black Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Black Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Black Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Black Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Black Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Black Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Black Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Black Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+              </myImages>
+            </authoring.Sprite.AnimationSequences.AuthoringAnimationSequence>
+          </myAnimationSequences>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Wall</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Green Square.png</imageURL>
+          <gridPos>
+            <int>2</int>
+            <int>17</int>
+          </gridPos>
+          <name>Green Square</name>
+          <width>3</width>
+          <height>9</height>
+          <UUID>0adb5f58-0493-416b-a792-010eb228ea35</UUID>
+          <myAnimationSequences>
+            <authoring.Sprite.AnimationSequences.AuthoringAnimationSequence resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringAnimationSequence">
+              <myName>Default</myName>
+              <myImages>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Green Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Green Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Green Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Green Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Green Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Green Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Green Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Green Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Green Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Green Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Green Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+              </myImages>
+            </authoring.Sprite.AnimationSequences.AuthoringAnimationSequence>
+          </myAnimationSequences>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Black Square.png</imageURL>
+          <gridPos>
+            <int>2</int>
+            <int>20</int>
+          </gridPos>
+          <name>Black Square.png</name>
+          <width>1</width>
+          <height>9</height>
+          <UUID>9516192c-5eb5-40ff-9661-4b337e39b21f</UUID>
+          <myAnimationSequences>
+            <authoring.Sprite.AnimationSequences.AuthoringAnimationSequence resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringAnimationSequence">
+              <myName>Default</myName>
+              <myImages>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Black Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Black Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Black Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Black Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Black Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Black Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+              </myImages>
+            </authoring.Sprite.AnimationSequences.AuthoringAnimationSequence>
+          </myAnimationSequences>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Wall</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows>
+            <entry>
+              <engine.Condition>
+                <priorityNum>10</priorityNum>
+                <operation class="engine.operations.booleanops.Collision">
+                  <first class="engine.operations.gameobjectops.Self"/>
+                  <second class="engine.operations.gameobjectops.Nearest">
+                    <tag class="engine.operations.stringops.SelfString">
+                      <stored>Wall</stored>
+                    </tag>
+                  </second>
+                </operation>
+              </engine.Condition>
+              <linked-list>
+                <int>3</int>
+                <int>4</int>
+              </linked-list>
+            </entry>
+            <entry>
+              <engine.Condition>
+                <priorityNum>1</priorityNum>
+                <operation class="engine.operations.booleanops.Not">
+                  <boolOp class="engine.operations.booleanops.BooleanVariableOf">
+                    <varName class="engine.operations.stringops.SelfString">
+                      <stored>MovingUp</stored>
+                    </varName>
+                    <object class="engine.operations.gameobjectops.Self"/>
+                  </boolOp>
+                </operation>
+              </engine.Condition>
+              <linked-list>
+                <int>2</int>
+              </linked-list>
+            </entry>
+            <entry>
+              <engine.Condition>
+                <priorityNum>1</priorityNum>
+                <operation class="engine.operations.booleanops.BooleanVariableOf">
+                  <varName class="engine.operations.stringops.SelfString">
+                    <stored>MovingUp</stored>
+                  </varName>
+                  <object class="engine.operations.gameobjectops.Self"/>
+                </operation>
+              </engine.Condition>
+              <linked-list>
+                <int>1</int>
+              </linked-list>
+            </entry>
+          </conditionRows>
+          <actionRows>
+            <engine.Actions.movement.Move>
+              <increment class="engine.operations.vectorops.BasicVector">
+                <x class="engine.operations.doubleops.Value">
+                  <value>0.0</value>
+                </x>
+                <y class="engine.operations.doubleops.Value">
+                  <value>-5.0</value>
+                </y>
+              </increment>
+              <object class="engine.operations.gameobjectops.Self"/>
+            </engine.Actions.movement.Move>
+            <engine.Actions.movement.Move>
+              <increment class="engine.operations.vectorops.BasicVector">
+                <x class="engine.operations.doubleops.Value">
+                  <value>0.0</value>
+                </x>
+                <y class="engine.operations.doubleops.Value">
+                  <value>5.0</value>
+                </y>
+              </increment>
+              <object class="engine.operations.gameobjectops.Self"/>
+            </engine.Actions.movement.Move>
+            <engine.Actions.movement.RemoveIntersection/>
+            <engine.Actions.variableSetting.ChangeBoolean>
+              <varName class="engine.operations.stringops.SelfString">
+                <stored>MovingUp</stored>
+              </varName>
+              <newBooleanOperation class="engine.operations.booleanops.Not">
+                <boolOp class="engine.operations.booleanops.BooleanVariableOf">
+                  <varName class="engine.operations.stringops.SelfString">
+                    <stored>MovingUp</stored>
+                  </varName>
+                  <object class="engine.operations.gameobjectops.Self"/>
+                </boolOp>
+              </newBooleanOperation>
+              <object class="engine.operations.gameobjectops.Self"/>
+            </engine.Actions.variableSetting.ChangeBoolean>
+          </actionRows>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list>
+                <authoring.Sprite.Parameters.BooleanSpriteParameter>
+                  <string>MovingUp</string>
+                  <boolean>true</boolean>
+                </authoring.Sprite.Parameters.BooleanSpriteParameter>
+              </list>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Yellow Square.png</imageURL>
+          <gridPos>
+            <int>3</int>
+            <int>9</int>
+          </gridPos>
+          <name>Yellow Square.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>9a1e451c-f5a5-4967-b691-cb84c4900e13</UUID>
+          <myAnimationSequences>
+            <authoring.Sprite.AnimationSequences.AuthoringAnimationSequence resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringAnimationSequence">
+              <myName>Default</myName>
+              <myImages>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+              </myImages>
+            </authoring.Sprite.AnimationSequences.AuthoringAnimationSequence>
+          </myAnimationSequences>
+          <spriteConditionOperations class="linked-list">
+            <string>Boolean Variable Of</string>
+            <string>Not</string>
+            <string>Collision Between</string>
+          </spriteConditionOperations>
+          <spriteActionOperations class="linked-list">
+            <linked-list>
+              <string>Movement</string>
+              <string>Move By</string>
+            </linked-list>
+            <linked-list>
+              <string>Movement</string>
+              <string>Move By</string>
+            </linked-list>
+            <linked-list>
+              <string>Movement</string>
+              <string>Remove Intersection</string>
+            </linked-list>
+            <linked-list>
+              <string>Variable Changes</string>
+              <string>Change Boolean</string>
+            </linked-list>
+          </spriteActionOperations>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Enemy</string>
+            <string>enemy</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows>
+            <entry>
+              <engine.Condition>
+                <priorityNum>1</priorityNum>
+                <operation class="engine.operations.booleanops.KeyHeld">
+                  <check class="engine.operations.stringops.SelfString">
+                    <stored>Right</stored>
+                  </check>
+                </operation>
+              </engine.Condition>
+              <linked-list>
+                <int>1</int>
+              </linked-list>
+            </entry>
+            <entry>
+              <engine.Condition>
+                <priorityNum>1</priorityNum>
+                <operation class="engine.operations.booleanops.KeyHeld">
+                  <check class="engine.operations.stringops.SelfString">
+                    <stored>Down</stored>
+                  </check>
+                </operation>
+              </engine.Condition>
+              <linked-list>
+                <int>3</int>
+              </linked-list>
+            </entry>
+            <entry>
+              <engine.Condition>
+                <priorityNum>1</priorityNum>
+                <operation class="engine.operations.booleanops.KeyHeld">
+                  <check class="engine.operations.stringops.SelfString">
+                    <stored>Up</stored>
+                  </check>
+                </operation>
+              </engine.Condition>
+              <linked-list>
+                <int>4</int>
+              </linked-list>
+            </entry>
+            <entry>
+              <engine.Condition>
+                <priorityNum>1</priorityNum>
+                <operation class="engine.operations.booleanops.Collision">
+                  <first class="engine.operations.gameobjectops.Self"/>
+                  <second class="engine.operations.gameobjectops.Nearest">
+                    <tag class="engine.operations.stringops.SelfString">
+                      <stored>enemy</stored>
+                    </tag>
+                  </second>
+                </operation>
+              </engine.Condition>
+              <linked-list>
+                <int>6</int>
+              </linked-list>
+            </entry>
+            <entry>
+              <engine.Condition>
+                <priorityNum>1</priorityNum>
+                <operation class="engine.operations.booleanops.Collision">
+                  <first class="engine.operations.gameobjectops.Self"/>
+                  <second class="engine.operations.gameobjectops.Nearest">
+                    <tag class="engine.operations.stringops.SelfString">
+                      <stored>Wall</stored>
+                    </tag>
+                  </second>
+                </operation>
+              </engine.Condition>
+              <linked-list>
+                <int>5</int>
+              </linked-list>
+            </entry>
+            <entry>
+              <engine.Condition>
+                <priorityNum>1</priorityNum>
+                <operation class="engine.operations.booleanops.KeyHeld">
+                  <check class="engine.operations.stringops.SelfString">
+                    <stored>Left</stored>
+                  </check>
+                </operation>
+              </engine.Condition>
+              <linked-list>
+                <int>2</int>
+              </linked-list>
+            </entry>
+          </conditionRows>
+          <actionRows>
+            <engine.Actions.movement.Move>
+              <increment class="engine.operations.vectorops.BasicVector">
+                <x class="engine.operations.doubleops.Value">
+                  <value>5.0</value>
+                </x>
+                <y class="engine.operations.doubleops.Value">
+                  <value>0.0</value>
+                </y>
+              </increment>
+              <object class="engine.operations.gameobjectops.Self"/>
+            </engine.Actions.movement.Move>
+            <engine.Actions.movement.Move>
+              <increment class="engine.operations.vectorops.BasicVector">
+                <x class="engine.operations.doubleops.Value">
+                  <value>-5.0</value>
+                </x>
+                <y class="engine.operations.doubleops.Value">
+                  <value>0.0</value>
+                </y>
+              </increment>
+              <object class="engine.operations.gameobjectops.Self"/>
+            </engine.Actions.movement.Move>
+            <engine.Actions.movement.Move>
+              <increment class="engine.operations.vectorops.BasicVector">
+                <x class="engine.operations.doubleops.Value">
+                  <value>0.0</value>
+                </x>
+                <y class="engine.operations.doubleops.Value">
+                  <value>5.0</value>
+                </y>
+              </increment>
+              <object class="engine.operations.gameobjectops.Self"/>
+            </engine.Actions.movement.Move>
+            <engine.Actions.movement.Move>
+              <increment class="engine.operations.vectorops.BasicVector">
+                <x class="engine.operations.doubleops.Value">
+                  <value>0.0</value>
+                </x>
+                <y class="engine.operations.doubleops.Value">
+                  <value>-5.0</value>
+                </y>
+              </increment>
+              <object class="engine.operations.gameobjectops.Self"/>
+            </engine.Actions.movement.Move>
+            <engine.Actions.movement.RemoveIntersection/>
+            <engine.Actions.movement.MoveTo>
+              <newLocation class="engine.operations.vectorops.BasicVector">
+                <x class="engine.operations.doubleops.Value">
+                  <value>200.0</value>
+                </x>
+                <y class="engine.operations.doubleops.Value">
+                  <value>200.0</value>
+                </y>
+              </newLocation>
+              <object class="engine.operations.gameobjectops.Self"/>
+            </engine.Actions.movement.MoveTo>
+          </actionRows>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>RedSquare.png</imageURL>
+          <gridPos>
+            <int>4</int>
+            <int>3</int>
+          </gridPos>
+          <name>RedSquare.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>3349c1bb-6cbe-4d91-b7e1-4a738d366b58</UUID>
+          <myAnimationSequences>
+            <authoring.Sprite.AnimationSequences.AuthoringAnimationSequence resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringAnimationSequence">
+              <myName>Default</myName>
+              <myImages>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>RedSquare.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>RedSquare.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>RedSquare.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>RedSquare.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>RedSquare.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>RedSquare.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>RedSquare.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+              </myImages>
+            </authoring.Sprite.AnimationSequences.AuthoringAnimationSequence>
+          </myAnimationSequences>
+          <spriteConditionOperations class="linked-list">
+            <string>Key is Held</string>
+            <string>Key is Held</string>
+            <string>Key is Held</string>
+            <string>Key is Held</string>
+            <string>Collision Between</string>
+            <string>Collision Between</string>
+          </spriteConditionOperations>
+          <spriteActionOperations class="linked-list">
+            <linked-list>
+              <string>Movement</string>
+              <string>Move By</string>
+            </linked-list>
+            <linked-list>
+              <string>Movement</string>
+              <string>Move By</string>
+            </linked-list>
+            <linked-list>
+              <string>Movement</string>
+              <string>Move By</string>
+            </linked-list>
+            <linked-list>
+              <string>Movement</string>
+              <string>Move By</string>
+            </linked-list>
+            <linked-list>
+              <string>Movement</string>
+              <string>Remove Intersection</string>
+            </linked-list>
+            <linked-list>
+              <string>Movement</string>
+              <string>Move To</string>
+            </linked-list>
+          </spriteActionOperations>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Enemy</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows>
+            <entry>
+              <engine.Condition>
+                <priorityNum>10</priorityNum>
+                <operation class="engine.operations.booleanops.Collision">
+                  <first class="engine.operations.gameobjectops.Self"/>
+                  <second class="engine.operations.gameobjectops.Nearest">
+                    <tag class="engine.operations.stringops.SelfString">
+                      <stored>Wall</stored>
+                    </tag>
+                  </second>
+                </operation>
+              </engine.Condition>
+              <linked-list>
+                <int>3</int>
+                <int>4</int>
+              </linked-list>
+            </entry>
+            <entry>
+              <engine.Condition>
+                <priorityNum>1</priorityNum>
+                <operation class="engine.operations.booleanops.BooleanVariableOf">
+                  <varName class="engine.operations.stringops.SelfString">
+                    <stored>MovingUp</stored>
+                  </varName>
+                  <object class="engine.operations.gameobjectops.Self"/>
+                </operation>
+              </engine.Condition>
+              <linked-list>
+                <int>1</int>
+              </linked-list>
+            </entry>
+            <entry>
+              <engine.Condition>
+                <priorityNum>1</priorityNum>
+                <operation class="engine.operations.booleanops.Not">
+                  <boolOp class="engine.operations.booleanops.BooleanVariableOf">
+                    <varName class="engine.operations.stringops.SelfString">
+                      <stored>MovingUp</stored>
+                    </varName>
+                    <object class="engine.operations.gameobjectops.Self"/>
+                  </boolOp>
+                </operation>
+              </engine.Condition>
+              <linked-list>
+                <int>2</int>
+              </linked-list>
+            </entry>
+          </conditionRows>
+          <actionRows>
+            <engine.Actions.movement.Move>
+              <increment class="engine.operations.vectorops.BasicVector">
+                <x class="engine.operations.doubleops.Value">
+                  <value>0.0</value>
+                </x>
+                <y class="engine.operations.doubleops.Value">
+                  <value>-5.0</value>
+                </y>
+              </increment>
+              <object class="engine.operations.gameobjectops.Self"/>
+            </engine.Actions.movement.Move>
+            <engine.Actions.movement.Move>
+              <increment class="engine.operations.vectorops.BasicVector">
+                <x class="engine.operations.doubleops.Value">
+                  <value>0.0</value>
+                </x>
+                <y class="engine.operations.doubleops.Value">
+                  <value>5.0</value>
+                </y>
+              </increment>
+              <object class="engine.operations.gameobjectops.Self"/>
+            </engine.Actions.movement.Move>
+            <engine.Actions.movement.RemoveIntersection/>
+            <engine.Actions.variableSetting.ChangeBoolean>
+              <varName class="engine.operations.stringops.SelfString">
+                <stored>MovingUp</stored>
+              </varName>
+              <newBooleanOperation class="engine.operations.booleanops.Not">
+                <boolOp class="engine.operations.booleanops.BooleanVariableOf">
+                  <varName class="engine.operations.stringops.SelfString">
+                    <stored>MovingUp</stored>
+                  </varName>
+                  <object class="engine.operations.gameobjectops.Self"/>
+                </boolOp>
+              </newBooleanOperation>
+              <object class="engine.operations.gameobjectops.Self"/>
+            </engine.Actions.variableSetting.ChangeBoolean>
+          </actionRows>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list>
+                <authoring.Sprite.Parameters.BooleanSpriteParameter>
+                  <string>MovingUp</string>
+                  <boolean>true</boolean>
+                </authoring.Sprite.Parameters.BooleanSpriteParameter>
+              </list>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Yellow Square.png</imageURL>
+          <gridPos>
+            <int>6</int>
+            <int>12</int>
+          </gridPos>
+          <name>Yellow Square.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>4f3b4a23-ec0f-4d80-b885-1601eb5771c6</UUID>
+          <myAnimationSequences>
+            <authoring.Sprite.AnimationSequences.AuthoringAnimationSequence resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringAnimationSequence">
+              <myName>Default</myName>
+              <myImages>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+              </myImages>
+            </authoring.Sprite.AnimationSequences.AuthoringAnimationSequence>
+          </myAnimationSequences>
+          <spriteConditionOperations class="linked-list">
+            <string>Boolean Variable Of</string>
+            <string>Not</string>
+            <string>Collision Between</string>
+          </spriteConditionOperations>
+          <spriteActionOperations class="linked-list">
+            <linked-list>
+              <string>Movement</string>
+              <string>Move By</string>
+            </linked-list>
+            <linked-list>
+              <string>Movement</string>
+              <string>Move By</string>
+            </linked-list>
+            <linked-list>
+              <string>Movement</string>
+              <string>Remove Intersection</string>
+            </linked-list>
+            <linked-list>
+              <string>Variable Changes</string>
+              <string>Change Boolean</string>
+            </linked-list>
+          </spriteActionOperations>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>enemy</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows>
+            <entry>
+              <engine.Condition>
+                <priorityNum>1</priorityNum>
+                <operation class="engine.operations.booleanops.BooleanVariableOf">
+                  <varName class="engine.operations.stringops.SelfString">
+                    <stored>MovingUp</stored>
+                  </varName>
+                  <object class="engine.operations.gameobjectops.Self"/>
+                </operation>
+              </engine.Condition>
+              <linked-list>
+                <int>1</int>
+              </linked-list>
+            </entry>
+            <entry>
+              <engine.Condition>
+                <priorityNum>1</priorityNum>
+                <operation class="engine.operations.booleanops.Not">
+                  <boolOp class="engine.operations.booleanops.BooleanVariableOf">
+                    <varName class="engine.operations.stringops.SelfString">
+                      <stored>MovingUp</stored>
+                    </varName>
+                    <object class="engine.operations.gameobjectops.Self"/>
+                  </boolOp>
+                </operation>
+              </engine.Condition>
+              <linked-list>
+                <int>2</int>
+              </linked-list>
+            </entry>
+            <entry>
+              <engine.Condition>
+                <priorityNum>10</priorityNum>
+                <operation class="engine.operations.booleanops.Collision">
+                  <first class="engine.operations.gameobjectops.Self"/>
+                  <second class="engine.operations.gameobjectops.Nearest">
+                    <tag class="engine.operations.stringops.SelfString">
+                      <stored>Wall</stored>
+                    </tag>
+                  </second>
+                </operation>
+              </engine.Condition>
+              <linked-list>
+                <int>3</int>
+                <int>4</int>
+              </linked-list>
+            </entry>
+          </conditionRows>
+          <actionRows>
+            <engine.Actions.movement.Move>
+              <increment class="engine.operations.vectorops.BasicVector">
+                <x class="engine.operations.doubleops.Value">
+                  <value>0.0</value>
+                </x>
+                <y class="engine.operations.doubleops.Value">
+                  <value>-5.0</value>
+                </y>
+              </increment>
+              <object class="engine.operations.gameobjectops.Self"/>
+            </engine.Actions.movement.Move>
+            <engine.Actions.movement.Move>
+              <increment class="engine.operations.vectorops.BasicVector">
+                <x class="engine.operations.doubleops.Value">
+                  <value>0.0</value>
+                </x>
+                <y class="engine.operations.doubleops.Value">
+                  <value>5.0</value>
+                </y>
+              </increment>
+              <object class="engine.operations.gameobjectops.Self"/>
+            </engine.Actions.movement.Move>
+            <engine.Actions.variableSetting.ChangeBoolean>
+              <varName class="engine.operations.stringops.SelfString">
+                <stored>MovingUp</stored>
+              </varName>
+              <newBooleanOperation class="engine.operations.booleanops.Not">
+                <boolOp class="engine.operations.booleanops.BooleanVariableOf">
+                  <varName class="engine.operations.stringops.SelfString">
+                    <stored>MovingUp</stored>
+                  </varName>
+                  <object class="engine.operations.gameobjectops.Self"/>
+                </boolOp>
+              </newBooleanOperation>
+              <object class="engine.operations.gameobjectops.Self"/>
+            </engine.Actions.variableSetting.ChangeBoolean>
+            <engine.Actions.movement.RemoveIntersection/>
+          </actionRows>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list>
+                <authoring.Sprite.Parameters.BooleanSpriteParameter>
+                  <string>MovingUp</string>
+                  <boolean>true</boolean>
+                </authoring.Sprite.Parameters.BooleanSpriteParameter>
+              </list>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Yellow Square.png</imageURL>
+          <gridPos>
+            <int>9</int>
+            <int>6</int>
+          </gridPos>
+          <name>Yellow Square.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>9d22bbe9-55bf-4db3-95c4-763989ea5d36</UUID>
+          <myAnimationSequences>
+            <authoring.Sprite.AnimationSequences.AuthoringAnimationSequence resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringAnimationSequence">
+              <myName>Default</myName>
+              <myImages>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+              </myImages>
+            </authoring.Sprite.AnimationSequences.AuthoringAnimationSequence>
+          </myAnimationSequences>
+          <spriteConditionOperations class="linked-list">
+            <string>Boolean Variable Of</string>
+            <string>Not</string>
+            <string>Collision Between</string>
+          </spriteConditionOperations>
+          <spriteActionOperations class="linked-list">
+            <linked-list>
+              <string>Movement</string>
+              <string>Move By</string>
+            </linked-list>
+            <linked-list>
+              <string>Movement</string>
+              <string>Move By</string>
+            </linked-list>
+            <linked-list>
+              <string>Variable Changes</string>
+              <string>Change Boolean</string>
+            </linked-list>
+            <linked-list>
+              <string>Movement</string>
+              <string>Remove Intersection</string>
+            </linked-list>
+          </spriteActionOperations>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Enemy</string>
+            <string>enemy</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows>
+            <entry>
+              <engine.Condition>
+                <priorityNum>10</priorityNum>
+                <operation class="engine.operations.booleanops.Collision">
+                  <first class="engine.operations.gameobjectops.Self"/>
+                  <second class="engine.operations.gameobjectops.Nearest">
+                    <tag class="engine.operations.stringops.SelfString">
+                      <stored>Wall</stored>
+                    </tag>
+                  </second>
+                </operation>
+              </engine.Condition>
+              <linked-list>
+                <int>3</int>
+                <int>4</int>
+              </linked-list>
+            </entry>
+            <entry>
+              <engine.Condition>
+                <priorityNum>1</priorityNum>
+                <operation class="engine.operations.booleanops.BooleanVariableOf">
+                  <varName class="engine.operations.stringops.SelfString">
+                    <stored>MovingUp</stored>
+                  </varName>
+                  <object class="engine.operations.gameobjectops.Self"/>
+                </operation>
+              </engine.Condition>
+              <linked-list>
+                <int>1</int>
+              </linked-list>
+            </entry>
+            <entry>
+              <engine.Condition>
+                <priorityNum>1</priorityNum>
+                <operation class="engine.operations.booleanops.Not">
+                  <boolOp class="engine.operations.booleanops.BooleanVariableOf">
+                    <varName class="engine.operations.stringops.SelfString">
+                      <stored>MovingUp</stored>
+                    </varName>
+                    <object class="engine.operations.gameobjectops.Self"/>
+                  </boolOp>
+                </operation>
+              </engine.Condition>
+              <linked-list>
+                <int>2</int>
+              </linked-list>
+            </entry>
+          </conditionRows>
+          <actionRows>
+            <engine.Actions.movement.Move>
+              <increment class="engine.operations.vectorops.BasicVector">
+                <x class="engine.operations.doubleops.Value">
+                  <value>0.0</value>
+                </x>
+                <y class="engine.operations.doubleops.Value">
+                  <value>-5.0</value>
+                </y>
+              </increment>
+              <object class="engine.operations.gameobjectops.Self"/>
+            </engine.Actions.movement.Move>
+            <engine.Actions.movement.Move>
+              <increment class="engine.operations.vectorops.BasicVector">
+                <x class="engine.operations.doubleops.Value">
+                  <value>0.0</value>
+                </x>
+                <y class="engine.operations.doubleops.Value">
+                  <value>5.0</value>
+                </y>
+              </increment>
+              <object class="engine.operations.gameobjectops.Self"/>
+            </engine.Actions.movement.Move>
+            <engine.Actions.movement.RemoveIntersection/>
+            <engine.Actions.variableSetting.ChangeBoolean>
+              <varName class="engine.operations.stringops.SelfString">
+                <stored>MovingUp</stored>
+              </varName>
+              <newBooleanOperation class="engine.operations.booleanops.Not">
+                <boolOp class="engine.operations.booleanops.BooleanVariableOf">
+                  <varName class="engine.operations.stringops.SelfString">
+                    <stored>MovingUp</stored>
+                  </varName>
+                  <object class="engine.operations.gameobjectops.Self"/>
+                </boolOp>
+              </newBooleanOperation>
+              <object class="engine.operations.gameobjectops.Self"/>
+            </engine.Actions.variableSetting.ChangeBoolean>
+          </actionRows>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list>
+                <authoring.Sprite.Parameters.BooleanSpriteParameter>
+                  <string>MovingUp</string>
+                  <boolean>true</boolean>
+                </authoring.Sprite.Parameters.BooleanSpriteParameter>
+              </list>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Yellow Square.png</imageURL>
+          <gridPos>
+            <int>9</int>
+            <int>15</int>
+          </gridPos>
+          <name>Yellow Square.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>f7ff8ed0-8990-4324-af63-302cfa7f18d8</UUID>
+          <myAnimationSequences>
+            <authoring.Sprite.AnimationSequences.AuthoringAnimationSequence resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringAnimationSequence">
+              <myName>Default</myName>
+              <myImages>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Yellow Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+              </myImages>
+            </authoring.Sprite.AnimationSequences.AuthoringAnimationSequence>
+          </myAnimationSequences>
+          <spriteConditionOperations class="linked-list">
+            <string>Boolean Variable Of</string>
+            <string>Not</string>
+            <string>Collision Between</string>
+          </spriteConditionOperations>
+          <spriteActionOperations class="linked-list">
+            <linked-list>
+              <string>Movement</string>
+              <string>Move By</string>
+            </linked-list>
+            <linked-list>
+              <string>Movement</string>
+              <string>Move By</string>
+            </linked-list>
+            <linked-list>
+              <string>Movement</string>
+              <string>Remove Intersection</string>
+            </linked-list>
+            <linked-list>
+              <string>Variable Changes</string>
+              <string>Change Boolean</string>
+            </linked-list>
+          </spriteActionOperations>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Enemy</string>
+            <string>enemy</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Black Square.png</imageURL>
+          <gridPos>
+            <int>10</int>
+            <int>1</int>
+          </gridPos>
+          <name>Black Square.png</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>b1f58d91-cfc7-4d44-b1b2-683c1b7e5516</UUID>
+          <myAnimationSequences>
+            <authoring.Sprite.AnimationSequences.AuthoringAnimationSequence resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringAnimationSequence">
+              <myName>Default</myName>
+              <myImages>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Black Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Black Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Black Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Black Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Black Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Black Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+              </myImages>
+            </authoring.Sprite.AnimationSequences.AuthoringAnimationSequence>
+          </myAnimationSequences>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows/>
+          <actionRows/>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list/>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>Black Square.png</imageURL>
+          <gridPos>
+            <int>11</int>
+            <int>1</int>
+          </gridPos>
+          <name>Black Square.png</name>
+          <width>20</width>
+          <height>1</height>
+          <UUID>65cec9c0-f58e-4be0-8b36-60aada01ec17</UUID>
+          <myAnimationSequences>
+            <authoring.Sprite.AnimationSequences.AuthoringAnimationSequence resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringAnimationSequence">
+              <myName>Default</myName>
+              <myImages>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Black Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Black Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Black Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Black Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Black Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Black Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>Black Square.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+              </myImages>
+            </authoring.Sprite.AnimationSequences.AuthoringAnimationSequence>
+          </myAnimationSequences>
+          <spriteConditionOperations class="linked-list"/>
+          <spriteActionOperations class="linked-list"/>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Wall</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+      </mySprites>
+    </authoring__UI.LayerDataConverter>
+  </gridManagers>
+</authoring__UI.MapDataConverter>

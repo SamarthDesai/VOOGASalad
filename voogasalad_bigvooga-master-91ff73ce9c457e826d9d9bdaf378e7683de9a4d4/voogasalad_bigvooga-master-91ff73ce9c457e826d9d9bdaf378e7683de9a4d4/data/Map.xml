@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Game type="zelda">
+	<gridel>
+		<location>0 0</location>
+		<size>100</size>
+		<terrain>data/grass.jpg</terrain>
+	</gridel>
+	<gridel>
+		<location>1 0</location>
+		<size>100</size>
+		<terrain>data/grass.jpg</terrain>
+		<player>
+			<image>data/human.jpg</image>
+			<health>10</health>
+			<event tag="die">health=0</event>
+			<event tag="turn">enemy=insight</event>
+				<range>15</range>
+				<amt>180</amt>
+			<size>100</size>
+			<motion>key input</motion>
+		</player>
+	</gridel>
+	<gridel>
+		<location>2 0</location>
+		<blocked></blocked>
+	</gridel>
+	<gridel>
+		<location>3 0</location>
+		<blocked></blocked>
+	</gridel>
+	<gridel>
+		<location>0 1</location>
+		<terrain>data/grass.jpg</terrain>
+		<NPC>
+			<image>data/iceman.jpg</image>
+			<health>20</health>
+			<event tag="help">
+				<condition>player=insight</condition>
+				<range>15</range>
+				<amt>5</amt>
+			</event>
+			<motion></motion>
+				<type>automatic</type>
+				<region>20 20</region>
+		</NPC>
+	</gridel>
+	<gridel>
+		<location>0 2</location>
+		<terrain>data/grass.jpg</terrain>
+		<enemy>
+			<image>data/fireman.jpg</image>
+			<health>20</health>
+			<event tag="hurt">
+				<condition>player=insight</condition>
+				<range>15</range>
+				<amt>10</amt>
+			</event>
+			<motion>
+				<type>automatic</type>
+				<region>20 20</region>
+			</motion>
+		</enemy>
+	</gridel>
+	<gridel>
+		<location>1 1</location>
+		<blocked></blocked>
+	</gridel>
+	<gridel>
+	<location>1 2</location>
+		<size>100</size>
+		<terrain>data/water.jpg</terrain>
+	</gridel>
+	<gridel>
+		<location>2 1</location>
+		<terrain>data/grass.jpg</terrain>
+		<NPC>
+			<image>data/iceman.jpg</image>
+			<health>20</health>
+			<event tag="help">
+				<condition>player=insight</condition>
+				<range>15</range>
+				<amt>5</amt>
+			</event>
+			<motion></motion>
+				<type>automatic</type>
+				<region>20 20</region>
+		</NPC>
+	</gridel>
+	<gridel>
+		<size>100</size>
+		<terrain>data/water.jpg</terrain>
+	</gridel>
+</Game>

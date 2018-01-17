@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Sprites type="my">
+	<obstacle name="destructibleTree">
+		<image>data/tree.jpeg</image>
+		<size>100</size>
+		<health>30</health>
+		<event tag="die">health=0</event>
+	</obstacle>
+	<NPC name="wizard">
+		<NPC>
+			<image>data/iceman.jpg</image>
+			<health>20</health>
+			<event tag="collide">
+				<condition>player=collide</condition>
+				<amt>10</amt>
+			</event>
+			<motion></motion>
+				<type>automatic</type>
+				<region>20 20</region>
+		</NPC>
+	</NPC>
+</Sprites>

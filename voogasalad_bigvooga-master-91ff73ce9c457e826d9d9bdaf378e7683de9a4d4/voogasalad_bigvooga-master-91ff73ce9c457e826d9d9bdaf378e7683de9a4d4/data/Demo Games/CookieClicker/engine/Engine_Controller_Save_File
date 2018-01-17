@@ -1,0 +1,639 @@
+<engine.GameMaster>
+  <currentWorld>
+    <worldName>World 1</worldName>
+    <worldLayers>
+      <engine.GameLayer>
+        <layerName>Background</layerName>
+        <worldElements/>
+        <objects/>
+        <conditionPriorities class="java.util.concurrent.ConcurrentSkipListMap" serialization="custom">
+          <unserializable-parents/>
+          <java.util.concurrent.ConcurrentSkipListMap>
+            <default/>
+            <null/>
+          </java.util.concurrent.ConcurrentSkipListMap>
+        </conditionPriorities>
+        <idToGameObject/>
+        <isTracked>true</isTracked>
+      </engine.GameLayer>
+      <engine.GameLayer>
+        <layerName>Terrain</layerName>
+        <worldElements/>
+        <objects/>
+        <conditionPriorities class="java.util.concurrent.ConcurrentSkipListMap" serialization="custom">
+          <unserializable-parents/>
+          <java.util.concurrent.ConcurrentSkipListMap>
+            <default/>
+            <null/>
+          </java.util.concurrent.ConcurrentSkipListMap>
+        </conditionPriorities>
+        <idToGameObject/>
+        <isTracked>true</isTracked>
+      </engine.GameLayer>
+      <engine.GameLayer>
+        <layerName>Main View</layerName>
+        <worldElements/>
+        <objects/>
+        <conditionPriorities class="java.util.concurrent.ConcurrentSkipListMap" serialization="custom">
+          <unserializable-parents/>
+          <java.util.concurrent.ConcurrentSkipListMap>
+            <default/>
+            <null/>
+          </java.util.concurrent.ConcurrentSkipListMap>
+        </conditionPriorities>
+        <idToGameObject/>
+        <isTracked>true</isTracked>
+      </engine.GameLayer>
+      <engine.GameLayer>
+        <layerName>Panels</layerName>
+        <worldElements>
+          <engine.GameObject>
+            <doubleVars>
+              <entry>
+                <string>score</string>
+                <double>0.0</double>
+              </entry>
+            </doubleVars>
+            <stringVars/>
+            <booleanVars/>
+            <sprite>
+              <animations>
+                <entry>
+                  <string>Default</string>
+                  <engine.sprite.AnimationSequence>
+                    <imageIndex>0</imageIndex>
+                    <images>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon>
+                            <geometry>
+                              <vertices>
+                                <javafx.geometry.Point2D>
+                                  <x>-0.5</x>
+                                  <y>-0.5</y>
+                                  <hash>0</hash>
+                                </javafx.geometry.Point2D>
+                                <javafx.geometry.Point2D>
+                                  <x>0.5</x>
+                                  <y>-0.5</y>
+                                  <hash>0</hash>
+                                </javafx.geometry.Point2D>
+                                <javafx.geometry.Point2D>
+                                  <x>0.5</x>
+                                  <y>0.5</y>
+                                  <hash>0</hash>
+                                </javafx.geometry.Point2D>
+                                <javafx.geometry.Point2D>
+                                  <x>-0.5</x>
+                                  <y>0.5</y>
+                                  <hash>0</hash>
+                                </javafx.geometry.Point2D>
+                              </vertices>
+                            </geometry>
+                          </engine.utilities.collisions.RelativeBoundingPolygon>
+                        </relativeBounds>
+                        <fileName>PerfectCookie.png</fileName>
+                      </engine.sprite.BoundedImage>
+                    </images>
+                    <name>Default</name>
+                    <stepsPerFrame>20</stepsPerFrame>
+                    <stepsInCurrentFrame>0</stepsInCurrentFrame>
+                  </engine.sprite.AnimationSequence>
+                </entry>
+              </animations>
+              <currentAnimation reference="../animations/entry/engine.sprite.AnimationSequence"/>
+            </sprite>
+            <tagSet>
+              <string>Cookie</string>
+              <string>default</string>
+            </tagSet>
+            <events>
+              <entry>
+                <engine.Condition>
+                  <priorityNum>1</priorityNum>
+                  <operation class="engine.operations.booleanops.ObjectClicked">
+                    <operation class="engine.operations.booleanops.And">
+                      <boolOp1 class="engine.operations.booleanops.ScreenClicked"/>
+                      <boolOp2 class="engine.operations.booleanops.ObjectClickHeld">
+                        <object class="engine.operations.gameobjectops.Self"/>
+                      </boolOp2>
+                    </operation>
+                  </operation>
+                </engine.Condition>
+                <list>
+                  <engine.Actions.variableSetting.ChangeDouble>
+                    <varName class="engine.operations.stringops.SelfString">
+                      <stored>score</stored>
+                    </varName>
+                    <newDouble class="engine.operations.doubleops.Sum">
+                      <first class="engine.operations.doubleops.DoubleVariableOf">
+                        <varName class="engine.operations.stringops.SelfString">
+                          <stored>score</stored>
+                        </varName>
+                        <object class="engine.operations.gameobjectops.Self"/>
+                      </first>
+                      <second class="engine.operations.doubleops.Value">
+                        <value>1.0</value>
+                      </second>
+                    </newDouble>
+                    <object class="engine.operations.gameobjectops.Self"/>
+                  </engine.Actions.variableSetting.ChangeDouble>
+                </list>
+              </entry>
+              <entry>
+                <engine.Condition>
+                  <priorityNum>2</priorityNum>
+                  <operation class="engine.operations.booleanops.BooleanValue">
+                    <value>true</value>
+                  </operation>
+                </engine.Condition>
+                <list>
+                  <engine.Actions.dialog.PlaceTextOn>
+                    <object class="engine.operations.gameobjectops.Self"/>
+                    <text class="engine.operations.stringops.StringFromNumber">
+                      <number class="engine.operations.doubleops.DoubleVariableOf">
+                        <varName class="engine.operations.stringops.SelfString">
+                          <stored>score</stored>
+                        </varName>
+                        <object class="engine.operations.gameobjectops.Self"/>
+                      </number>
+                    </text>
+                  </engine.Actions.dialog.PlaceTextOn>
+                </list>
+              </entry>
+            </events>
+            <uniqueID>2b36e644-58ac-4514-a5c5-bcac8bbc495d</uniqueID>
+            <name>Cookie</name>
+            <inventory>
+              <objects/>
+              <holder reference="../.."/>
+              <rowSpan>5</rowSpan>
+              <colSpan>5</colSpan>
+              <x>0.0</x>
+              <y>0.0</y>
+              <startIndex>0</startIndex>
+              <name>CookieInventory</name>
+            </inventory>
+            <dialogueHandler/>
+            <heading>0.0</heading>
+            <ithDerivative>
+              <javafx.geometry.Point2D>
+                <x>300.0</x>
+                <y>300.0</y>
+                <hash>0</hash>
+              </javafx.geometry.Point2D>
+            </ithDerivative>
+            <width>500.0</width>
+            <height>500.0</height>
+          </engine.GameObject>
+        </worldElements>
+        <objects>
+          <engine.GameObject reference="../../worldElements/engine.GameObject"/>
+        </objects>
+        <conditionPriorities class="java.util.concurrent.ConcurrentSkipListMap" serialization="custom">
+          <unserializable-parents/>
+          <java.util.concurrent.ConcurrentSkipListMap>
+            <default/>
+            <int>1</int>
+            <list>
+              <engine.GameObject reference="../../../../worldElements/engine.GameObject"/>
+            </list>
+            <int>2</int>
+            <list>
+              <engine.GameObject reference="../../../../worldElements/engine.GameObject"/>
+            </list>
+            <null/>
+          </java.util.concurrent.ConcurrentSkipListMap>
+        </conditionPriorities>
+        <idToGameObject>
+          <entry>
+            <string>2b36e644-58ac-4514-a5c5-bcac8bbc495d</string>
+            <engine.GameObject reference="../../../worldElements/engine.GameObject"/>
+          </entry>
+        </idToGameObject>
+        <isTracked>true</isTracked>
+      </engine.GameLayer>
+    </worldLayers>
+    <camera>
+      <SCREEN__WIDTH>1000.0</SCREEN__WIDTH>
+      <SCREEN__HEIGHT>700.0</SCREEN__HEIGHT>
+      <PARALLAX>0.1</PARALLAX>
+      <x>0.0</x>
+      <y>0.0</y>
+    </camera>
+  </currentWorld>
+  <madeWorlds>
+    <engine.GameWorld reference="../../currentWorld"/>
+    <engine.GameWorld>
+      <worldName>World 1</worldName>
+      <worldLayers>
+        <engine.GameLayer>
+          <layerName>Background</layerName>
+          <worldElements/>
+          <objects/>
+          <conditionPriorities class="java.util.concurrent.ConcurrentSkipListMap" serialization="custom">
+            <unserializable-parents/>
+            <java.util.concurrent.ConcurrentSkipListMap>
+              <default/>
+              <null/>
+            </java.util.concurrent.ConcurrentSkipListMap>
+          </conditionPriorities>
+          <idToGameObject/>
+          <isTracked>true</isTracked>
+        </engine.GameLayer>
+        <engine.GameLayer>
+          <layerName>Terrain</layerName>
+          <worldElements/>
+          <objects/>
+          <conditionPriorities class="java.util.concurrent.ConcurrentSkipListMap" serialization="custom">
+            <unserializable-parents/>
+            <java.util.concurrent.ConcurrentSkipListMap>
+              <default/>
+              <null/>
+            </java.util.concurrent.ConcurrentSkipListMap>
+          </conditionPriorities>
+          <idToGameObject/>
+          <isTracked>true</isTracked>
+        </engine.GameLayer>
+        <engine.GameLayer>
+          <layerName>Main View</layerName>
+          <worldElements/>
+          <objects/>
+          <conditionPriorities class="java.util.concurrent.ConcurrentSkipListMap" serialization="custom">
+            <unserializable-parents/>
+            <java.util.concurrent.ConcurrentSkipListMap>
+              <default/>
+              <null/>
+            </java.util.concurrent.ConcurrentSkipListMap>
+          </conditionPriorities>
+          <idToGameObject/>
+          <isTracked>true</isTracked>
+        </engine.GameLayer>
+        <engine.GameLayer>
+          <layerName>Panels</layerName>
+          <worldElements>
+            <engine.GameObject>
+              <doubleVars>
+                <entry>
+                  <string>score</string>
+                  <double>0.0</double>
+                </entry>
+              </doubleVars>
+              <stringVars/>
+              <booleanVars/>
+              <sprite>
+                <animations>
+                  <entry>
+                    <string>Default</string>
+                    <engine.sprite.AnimationSequence>
+                      <imageIndex>0</imageIndex>
+                      <images>
+                        <engine.sprite.BoundedImage>
+                          <drawingPriority>10</drawingPriority>
+                          <x>0.0</x>
+                          <y>0.0</y>
+                          <width>0.0</width>
+                          <height>0.0</height>
+                          <heading>0.0</heading>
+                          <relativeBounds>
+                            <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../../../../currentWorld/worldLayers/engine.GameLayer[4]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                          </relativeBounds>
+                          <fileName>PerfectCookie.png</fileName>
+                        </engine.sprite.BoundedImage>
+                      </images>
+                      <name>Default</name>
+                      <stepsPerFrame>20</stepsPerFrame>
+                      <stepsInCurrentFrame>0</stepsInCurrentFrame>
+                    </engine.sprite.AnimationSequence>
+                  </entry>
+                </animations>
+                <currentAnimation reference="../animations/entry/engine.sprite.AnimationSequence"/>
+              </sprite>
+              <tagSet>
+                <string>Cookie</string>
+                <string>default</string>
+              </tagSet>
+              <events>
+                <entry>
+                  <engine.Condition reference="../../../../../../../../../currentWorld/worldLayers/engine.GameLayer[4]/worldElements/engine.GameObject/events/entry/engine.Condition"/>
+                  <list>
+                    <engine.Actions.variableSetting.ChangeDouble reference="../../../../../../../../../../currentWorld/worldLayers/engine.GameLayer[4]/worldElements/engine.GameObject/events/entry/list/engine.Actions.variableSetting.ChangeDouble"/>
+                  </list>
+                </entry>
+                <entry>
+                  <engine.Condition reference="../../../../../../../../../currentWorld/worldLayers/engine.GameLayer[4]/worldElements/engine.GameObject/events/entry[2]/engine.Condition"/>
+                  <list>
+                    <engine.Actions.dialog.PlaceTextOn reference="../../../../../../../../../../currentWorld/worldLayers/engine.GameLayer[4]/worldElements/engine.GameObject/events/entry[2]/list/engine.Actions.dialog.PlaceTextOn"/>
+                  </list>
+                </entry>
+              </events>
+              <uniqueID>2b36e644-58ac-4514-a5c5-bcac8bbc495d</uniqueID>
+              <name>Cookie</name>
+              <inventory>
+                <objects/>
+                <holder reference="../.."/>
+                <rowSpan>5</rowSpan>
+                <colSpan>5</colSpan>
+                <x>0.0</x>
+                <y>0.0</y>
+                <startIndex>0</startIndex>
+                <name>CookieInventory</name>
+              </inventory>
+              <dialogueHandler/>
+              <heading>0.0</heading>
+              <ithDerivative>
+                <javafx.geometry.Point2D>
+                  <x>300.0</x>
+                  <y>300.0</y>
+                  <hash>0</hash>
+                </javafx.geometry.Point2D>
+              </ithDerivative>
+              <width>500.0</width>
+              <height>500.0</height>
+            </engine.GameObject>
+          </worldElements>
+          <objects>
+            <engine.GameObject reference="../../worldElements/engine.GameObject"/>
+          </objects>
+          <conditionPriorities class="java.util.concurrent.ConcurrentSkipListMap" serialization="custom">
+            <unserializable-parents/>
+            <java.util.concurrent.ConcurrentSkipListMap>
+              <default/>
+              <int>1</int>
+              <list>
+                <engine.GameObject reference="../../../../worldElements/engine.GameObject"/>
+              </list>
+              <int>2</int>
+              <list>
+                <engine.GameObject reference="../../../../worldElements/engine.GameObject"/>
+              </list>
+              <null/>
+            </java.util.concurrent.ConcurrentSkipListMap>
+          </conditionPriorities>
+          <idToGameObject>
+            <entry>
+              <string>2b36e644-58ac-4514-a5c5-bcac8bbc495d</string>
+              <engine.GameObject reference="../../../worldElements/engine.GameObject"/>
+            </entry>
+          </idToGameObject>
+          <isTracked>true</isTracked>
+        </engine.GameLayer>
+      </worldLayers>
+      <camera>
+        <SCREEN__WIDTH>1000.0</SCREEN__WIDTH>
+        <SCREEN__HEIGHT>700.0</SCREEN__HEIGHT>
+        <PARALLAX>0.1</PARALLAX>
+        <x>0.0</x>
+        <y>0.0</y>
+      </camera>
+    </engine.GameWorld>
+    <engine.GameWorld>
+      <worldName>World 1</worldName>
+      <worldLayers>
+        <engine.GameLayer>
+          <layerName>Background</layerName>
+          <worldElements/>
+          <objects/>
+          <conditionPriorities class="java.util.concurrent.ConcurrentSkipListMap" serialization="custom">
+            <unserializable-parents/>
+            <java.util.concurrent.ConcurrentSkipListMap>
+              <default/>
+              <null/>
+            </java.util.concurrent.ConcurrentSkipListMap>
+          </conditionPriorities>
+          <idToGameObject/>
+          <isTracked>true</isTracked>
+        </engine.GameLayer>
+        <engine.GameLayer>
+          <layerName>Terrain</layerName>
+          <worldElements/>
+          <objects/>
+          <conditionPriorities class="java.util.concurrent.ConcurrentSkipListMap" serialization="custom">
+            <unserializable-parents/>
+            <java.util.concurrent.ConcurrentSkipListMap>
+              <default/>
+              <null/>
+            </java.util.concurrent.ConcurrentSkipListMap>
+          </conditionPriorities>
+          <idToGameObject/>
+          <isTracked>true</isTracked>
+        </engine.GameLayer>
+        <engine.GameLayer>
+          <layerName>Main View</layerName>
+          <worldElements/>
+          <objects/>
+          <conditionPriorities class="java.util.concurrent.ConcurrentSkipListMap" serialization="custom">
+            <unserializable-parents/>
+            <java.util.concurrent.ConcurrentSkipListMap>
+              <default/>
+              <null/>
+            </java.util.concurrent.ConcurrentSkipListMap>
+          </conditionPriorities>
+          <idToGameObject/>
+          <isTracked>true</isTracked>
+        </engine.GameLayer>
+        <engine.GameLayer>
+          <layerName>Panels</layerName>
+          <worldElements>
+            <engine.GameObject>
+              <doubleVars>
+                <entry>
+                  <string>score</string>
+                  <double>0.0</double>
+                </entry>
+              </doubleVars>
+              <stringVars/>
+              <booleanVars/>
+              <sprite>
+                <animations>
+                  <entry>
+                    <string>Default</string>
+                    <engine.sprite.AnimationSequence>
+                      <imageIndex>0</imageIndex>
+                      <images>
+                        <engine.sprite.BoundedImage>
+                          <drawingPriority>10</drawingPriority>
+                          <x>0.0</x>
+                          <y>0.0</y>
+                          <width>0.0</width>
+                          <height>0.0</height>
+                          <heading>0.0</heading>
+                          <relativeBounds>
+                            <engine.utilities.collisions.RelativeBoundingPolygon>
+                              <geometry>
+                                <vertices>
+                                  <javafx.geometry.Point2D>
+                                    <x>-0.1975</x>
+                                    <y>0.43500000000000005</y>
+                                    <hash>0</hash>
+                                  </javafx.geometry.Point2D>
+                                  <javafx.geometry.Point2D>
+                                    <x>-0.3575</x>
+                                    <y>0.2975</y>
+                                    <hash>0</hash>
+                                  </javafx.geometry.Point2D>
+                                  <javafx.geometry.Point2D>
+                                    <x>-0.4525</x>
+                                    <y>0.10999999999999999</y>
+                                    <hash>0</hash>
+                                  </javafx.geometry.Point2D>
+                                  <javafx.geometry.Point2D>
+                                    <x>-0.46499999999999997</x>
+                                    <y>-0.08499999999999996</y>
+                                    <hash>0</hash>
+                                  </javafx.geometry.Point2D>
+                                  <javafx.geometry.Point2D>
+                                    <x>-0.3875</x>
+                                    <y>-0.2875</y>
+                                    <hash>0</hash>
+                                  </javafx.geometry.Point2D>
+                                  <javafx.geometry.Point2D>
+                                    <x>-0.21000000000000002</x>
+                                    <y>-0.42</y>
+                                    <hash>0</hash>
+                                  </javafx.geometry.Point2D>
+                                  <javafx.geometry.Point2D>
+                                    <x>0.0025000000000000577</x>
+                                    <y>-0.47</y>
+                                    <hash>0</hash>
+                                  </javafx.geometry.Point2D>
+                                  <javafx.geometry.Point2D>
+                                    <x>0.25</x>
+                                    <y>-0.39749999999999996</y>
+                                    <hash>0</hash>
+                                  </javafx.geometry.Point2D>
+                                  <javafx.geometry.Point2D>
+                                    <x>0.4125</x>
+                                    <y>-0.21999999999999997</y>
+                                    <hash>0</hash>
+                                  </javafx.geometry.Point2D>
+                                  <javafx.geometry.Point2D>
+                                    <x>0.47250000000000003</x>
+                                    <y>0.015000000000000013</y>
+                                    <hash>0</hash>
+                                  </javafx.geometry.Point2D>
+                                  <javafx.geometry.Point2D>
+                                    <x>0.4</x>
+                                    <y>0.24</y>
+                                    <hash>0</hash>
+                                  </javafx.geometry.Point2D>
+                                  <javafx.geometry.Point2D>
+                                    <x>0.22999999999999998</x>
+                                    <y>0.405</y>
+                                    <hash>0</hash>
+                                  </javafx.geometry.Point2D>
+                                  <javafx.geometry.Point2D>
+                                    <x>0.03249999999999997</x>
+                                    <y>0.47750000000000004</y>
+                                    <hash>0</hash>
+                                  </javafx.geometry.Point2D>
+                                </vertices>
+                              </geometry>
+                            </engine.utilities.collisions.RelativeBoundingPolygon>
+                          </relativeBounds>
+                          <fileName>PerfectCookie.png</fileName>
+                        </engine.sprite.BoundedImage>
+                      </images>
+                      <name>Default</name>
+                      <stepsPerFrame>20</stepsPerFrame>
+                      <stepsInCurrentFrame>0</stepsInCurrentFrame>
+                    </engine.sprite.AnimationSequence>
+                  </entry>
+                </animations>
+                <currentAnimation reference="../animations/entry/engine.sprite.AnimationSequence"/>
+              </sprite>
+              <tagSet>
+                <string>Cookie</string>
+                <string>default</string>
+              </tagSet>
+              <events>
+                <entry>
+                  <engine.Condition reference="../../../../../../../../../currentWorld/worldLayers/engine.GameLayer[4]/worldElements/engine.GameObject/events/entry/engine.Condition"/>
+                  <list>
+                    <engine.Actions.variableSetting.ChangeDouble reference="../../../../../../../../../../currentWorld/worldLayers/engine.GameLayer[4]/worldElements/engine.GameObject/events/entry/list/engine.Actions.variableSetting.ChangeDouble"/>
+                  </list>
+                </entry>
+                <entry>
+                  <engine.Condition reference="../../../../../../../../../currentWorld/worldLayers/engine.GameLayer[4]/worldElements/engine.GameObject/events/entry[2]/engine.Condition"/>
+                  <list>
+                    <engine.Actions.dialog.PlaceTextOn reference="../../../../../../../../../../currentWorld/worldLayers/engine.GameLayer[4]/worldElements/engine.GameObject/events/entry[2]/list/engine.Actions.dialog.PlaceTextOn"/>
+                  </list>
+                </entry>
+              </events>
+              <uniqueID>2b36e644-58ac-4514-a5c5-bcac8bbc495d</uniqueID>
+              <name>Cookie</name>
+              <inventory>
+                <objects/>
+                <holder reference="../.."/>
+                <rowSpan>5</rowSpan>
+                <colSpan>5</colSpan>
+                <x>0.0</x>
+                <y>0.0</y>
+                <startIndex>0</startIndex>
+                <name>CookieInventory</name>
+              </inventory>
+              <dialogueHandler/>
+              <heading>0.0</heading>
+              <ithDerivative>
+                <javafx.geometry.Point2D>
+                  <x>300.0</x>
+                  <y>300.0</y>
+                  <hash>0</hash>
+                </javafx.geometry.Point2D>
+              </ithDerivative>
+              <width>500.0</width>
+              <height>500.0</height>
+            </engine.GameObject>
+          </worldElements>
+          <objects>
+            <engine.GameObject reference="../../worldElements/engine.GameObject"/>
+          </objects>
+          <conditionPriorities class="java.util.concurrent.ConcurrentSkipListMap" serialization="custom">
+            <unserializable-parents/>
+            <java.util.concurrent.ConcurrentSkipListMap>
+              <default/>
+              <int>1</int>
+              <list>
+                <engine.GameObject reference="../../../../worldElements/engine.GameObject"/>
+              </list>
+              <int>2</int>
+              <list>
+                <engine.GameObject reference="../../../../worldElements/engine.GameObject"/>
+              </list>
+              <null/>
+            </java.util.concurrent.ConcurrentSkipListMap>
+          </conditionPriorities>
+          <idToGameObject>
+            <entry>
+              <string>2b36e644-58ac-4514-a5c5-bcac8bbc495d</string>
+              <engine.GameObject reference="../../../worldElements/engine.GameObject"/>
+            </entry>
+          </idToGameObject>
+          <isTracked>true</isTracked>
+        </engine.GameLayer>
+      </worldLayers>
+      <camera>
+        <SCREEN__WIDTH>1000.0</SCREEN__WIDTH>
+        <SCREEN__HEIGHT>700.0</SCREEN__HEIGHT>
+        <PARALLAX>0.1</PARALLAX>
+        <x>0.0</x>
+        <y>0.0</y>
+      </camera>
+    </engine.GameWorld>
+  </madeWorlds>
+  <globalVars>
+    <doubleVars/>
+    <stringVars/>
+    <booleanVars/>
+  </globalVars>
+  <blueprintManager>
+    <originals/>
+  </blueprintManager>
+  <nextWorld>World 1</nextWorld>
+</engine.GameMaster>

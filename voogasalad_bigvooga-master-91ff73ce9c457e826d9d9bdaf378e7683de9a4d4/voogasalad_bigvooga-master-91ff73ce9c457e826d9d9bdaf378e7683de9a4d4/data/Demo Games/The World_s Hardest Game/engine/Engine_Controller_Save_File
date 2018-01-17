@@ -1,0 +1,2548 @@
+<engine.GameMaster>
+  <currentWorld>
+    <worldName>World 1</worldName>
+    <worldLayers>
+      <engine.GameLayer>
+        <layerName>Background</layerName>
+        <worldElements/>
+        <objects/>
+        <conditionPriorities class="java.util.concurrent.ConcurrentSkipListMap" serialization="custom">
+          <unserializable-parents/>
+          <java.util.concurrent.ConcurrentSkipListMap>
+            <default/>
+            <null/>
+          </java.util.concurrent.ConcurrentSkipListMap>
+        </conditionPriorities>
+        <idToGameObject/>
+        <isTracked>true</isTracked>
+      </engine.GameLayer>
+      <engine.GameLayer>
+        <layerName>Terrain</layerName>
+        <worldElements>
+          <engine.GameObject>
+            <doubleVars/>
+            <stringVars/>
+            <booleanVars/>
+            <sprite>
+              <animations>
+                <entry>
+                  <string>Default</string>
+                  <engine.sprite.AnimationSequence>
+                    <imageIndex>0</imageIndex>
+                    <images>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon>
+                            <geometry>
+                              <vertices>
+                                <javafx.geometry.Point2D>
+                                  <x>-0.5</x>
+                                  <y>-0.5</y>
+                                  <hash>0</hash>
+                                </javafx.geometry.Point2D>
+                                <javafx.geometry.Point2D>
+                                  <x>0.5</x>
+                                  <y>-0.5</y>
+                                  <hash>0</hash>
+                                </javafx.geometry.Point2D>
+                                <javafx.geometry.Point2D>
+                                  <x>0.5</x>
+                                  <y>0.5</y>
+                                  <hash>0</hash>
+                                </javafx.geometry.Point2D>
+                                <javafx.geometry.Point2D>
+                                  <x>-0.5</x>
+                                  <y>0.5</y>
+                                  <hash>0</hash>
+                                </javafx.geometry.Point2D>
+                              </vertices>
+                            </geometry>
+                          </engine.utilities.collisions.RelativeBoundingPolygon>
+                        </relativeBounds>
+                        <fileName>Light Blue Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Light Blue Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Light Blue Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Light Blue Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Light Blue Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Light Blue Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Light Blue Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                    </images>
+                    <name>Default</name>
+                    <stepsPerFrame>20</stepsPerFrame>
+                    <stepsInCurrentFrame>0</stepsInCurrentFrame>
+                  </engine.sprite.AnimationSequence>
+                </entry>
+              </animations>
+              <currentAnimation reference="../animations/entry/engine.sprite.AnimationSequence"/>
+            </sprite>
+            <tagSet>
+              <string>default</string>
+              <string>Light Blue Square.png</string>
+            </tagSet>
+            <events/>
+            <uniqueID>175f3716-341d-4d8a-afc0-ff526488d006</uniqueID>
+            <name>Light Blue Square.png</name>
+            <inventory>
+              <objects/>
+              <holder reference="../.."/>
+              <rowSpan>5</rowSpan>
+              <colSpan>5</colSpan>
+              <x>0.0</x>
+              <y>0.0</y>
+              <startIndex>0</startIndex>
+              <name>Light Blue Square.pngInventory</name>
+            </inventory>
+            <dialogueHandler/>
+            <heading>0.0</heading>
+            <ithDerivative>
+              <javafx.geometry.Point2D>
+                <x>475.0</x>
+                <y>325.0</y>
+                <hash>0</hash>
+              </javafx.geometry.Point2D>
+            </ithDerivative>
+            <width>750.0</width>
+            <height>450.0</height>
+          </engine.GameObject>
+        </worldElements>
+        <objects>
+          <engine.GameObject reference="../../worldElements/engine.GameObject"/>
+        </objects>
+        <conditionPriorities class="java.util.concurrent.ConcurrentSkipListMap" serialization="custom">
+          <unserializable-parents/>
+          <java.util.concurrent.ConcurrentSkipListMap>
+            <default/>
+            <null/>
+          </java.util.concurrent.ConcurrentSkipListMap>
+        </conditionPriorities>
+        <idToGameObject>
+          <entry>
+            <string>175f3716-341d-4d8a-afc0-ff526488d006</string>
+            <engine.GameObject reference="../../../worldElements/engine.GameObject"/>
+          </entry>
+        </idToGameObject>
+        <isTracked>true</isTracked>
+      </engine.GameLayer>
+      <engine.GameLayer>
+        <layerName>Main View</layerName>
+        <worldElements/>
+        <objects/>
+        <conditionPriorities class="java.util.concurrent.ConcurrentSkipListMap" serialization="custom">
+          <unserializable-parents/>
+          <java.util.concurrent.ConcurrentSkipListMap>
+            <default/>
+            <null/>
+          </java.util.concurrent.ConcurrentSkipListMap>
+        </conditionPriorities>
+        <idToGameObject/>
+        <isTracked>true</isTracked>
+      </engine.GameLayer>
+      <engine.GameLayer>
+        <layerName>Panels</layerName>
+        <worldElements>
+          <engine.GameObject>
+            <doubleVars/>
+            <stringVars/>
+            <booleanVars/>
+            <sprite>
+              <animations>
+                <entry>
+                  <string>Default</string>
+                  <engine.sprite.AnimationSequence>
+                    <imageIndex>0</imageIndex>
+                    <images>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Black Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Black Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Black Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Black Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Black Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Black Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                    </images>
+                    <name>Default</name>
+                    <stepsPerFrame>20</stepsPerFrame>
+                    <stepsInCurrentFrame>0</stepsInCurrentFrame>
+                  </engine.sprite.AnimationSequence>
+                </entry>
+              </animations>
+              <currentAnimation reference="../animations/entry/engine.sprite.AnimationSequence"/>
+            </sprite>
+            <tagSet>
+              <string>default</string>
+              <string>Wall</string>
+              <string>Black Square.png</string>
+            </tagSet>
+            <events/>
+            <uniqueID>651f4b55-a6d7-412e-b93a-8b8c4de2e90e</uniqueID>
+            <name>Black Square.png</name>
+            <inventory>
+              <objects/>
+              <holder reference="../.."/>
+              <rowSpan>5</rowSpan>
+              <colSpan>5</colSpan>
+              <x>0.0</x>
+              <y>0.0</y>
+              <startIndex>0</startIndex>
+              <name>Black Square.pngInventory</name>
+            </inventory>
+            <dialogueHandler/>
+            <heading>0.0</heading>
+            <ithDerivative>
+              <javafx.geometry.Point2D>
+                <x>550.0</x>
+                <y>75.0</y>
+                <hash>0</hash>
+              </javafx.geometry.Point2D>
+            </ithDerivative>
+            <width>1000.0</width>
+            <height>50.0</height>
+          </engine.GameObject>
+          <engine.GameObject>
+            <doubleVars/>
+            <stringVars/>
+            <booleanVars/>
+            <sprite>
+              <animations>
+                <entry>
+                  <string>Default</string>
+                  <engine.sprite.AnimationSequence>
+                    <imageIndex>0</imageIndex>
+                    <images>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Black Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Black Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Black Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Black Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Black Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Black Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Black Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Black Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Black Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                    </images>
+                    <name>Default</name>
+                    <stepsPerFrame>20</stepsPerFrame>
+                    <stepsInCurrentFrame>0</stepsInCurrentFrame>
+                  </engine.sprite.AnimationSequence>
+                </entry>
+              </animations>
+              <currentAnimation reference="../animations/entry/engine.sprite.AnimationSequence"/>
+            </sprite>
+            <tagSet>
+              <string>default</string>
+              <string>Wall</string>
+              <string>Black Square.png</string>
+            </tagSet>
+            <events/>
+            <uniqueID>51a78cee-f961-4ad1-955a-21748b2bfb3b</uniqueID>
+            <name>Black Square.png</name>
+            <inventory>
+              <objects/>
+              <holder reference="../.."/>
+              <rowSpan>5</rowSpan>
+              <colSpan>5</colSpan>
+              <x>0.0</x>
+              <y>0.0</y>
+              <startIndex>0</startIndex>
+              <name>Black Square.pngInventory</name>
+            </inventory>
+            <dialogueHandler/>
+            <heading>0.0</heading>
+            <ithDerivative>
+              <javafx.geometry.Point2D>
+                <x>75.0</x>
+                <y>325.0</y>
+                <hash>0</hash>
+              </javafx.geometry.Point2D>
+            </ithDerivative>
+            <width>50.0</width>
+            <height>450.0</height>
+          </engine.GameObject>
+          <engine.GameObject>
+            <doubleVars/>
+            <stringVars/>
+            <booleanVars/>
+            <sprite>
+              <animations>
+                <entry>
+                  <string>Default</string>
+                  <engine.sprite.AnimationSequence>
+                    <imageIndex>0</imageIndex>
+                    <images>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Green Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Green Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Green Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Green Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Green Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Green Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Green Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Green Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Green Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Green Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Green Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                    </images>
+                    <name>Default</name>
+                    <stepsPerFrame>20</stepsPerFrame>
+                    <stepsInCurrentFrame>0</stepsInCurrentFrame>
+                  </engine.sprite.AnimationSequence>
+                </entry>
+              </animations>
+              <currentAnimation reference="../animations/entry/engine.sprite.AnimationSequence"/>
+            </sprite>
+            <tagSet>
+              <string>default</string>
+              <string>Green Square</string>
+            </tagSet>
+            <events/>
+            <uniqueID>0adb5f58-0493-416b-a792-010eb228ea35</uniqueID>
+            <name>Green Square</name>
+            <inventory>
+              <objects/>
+              <holder reference="../.."/>
+              <rowSpan>5</rowSpan>
+              <colSpan>5</colSpan>
+              <x>0.0</x>
+              <y>0.0</y>
+              <startIndex>0</startIndex>
+              <name>Green SquareInventory</name>
+            </inventory>
+            <dialogueHandler/>
+            <heading>0.0</heading>
+            <ithDerivative>
+              <javafx.geometry.Point2D>
+                <x>925.0</x>
+                <y>325.0</y>
+                <hash>0</hash>
+              </javafx.geometry.Point2D>
+            </ithDerivative>
+            <width>150.0</width>
+            <height>450.0</height>
+          </engine.GameObject>
+          <engine.GameObject>
+            <doubleVars/>
+            <stringVars/>
+            <booleanVars/>
+            <sprite>
+              <animations>
+                <entry>
+                  <string>Default</string>
+                  <engine.sprite.AnimationSequence>
+                    <imageIndex>0</imageIndex>
+                    <images>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Black Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Black Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Black Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Black Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Black Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Black Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                    </images>
+                    <name>Default</name>
+                    <stepsPerFrame>20</stepsPerFrame>
+                    <stepsInCurrentFrame>0</stepsInCurrentFrame>
+                  </engine.sprite.AnimationSequence>
+                </entry>
+              </animations>
+              <currentAnimation reference="../animations/entry/engine.sprite.AnimationSequence"/>
+            </sprite>
+            <tagSet>
+              <string>default</string>
+              <string>Wall</string>
+              <string>Black Square.png</string>
+            </tagSet>
+            <events/>
+            <uniqueID>9516192c-5eb5-40ff-9661-4b337e39b21f</uniqueID>
+            <name>Black Square.png</name>
+            <inventory>
+              <objects/>
+              <holder reference="../.."/>
+              <rowSpan>5</rowSpan>
+              <colSpan>5</colSpan>
+              <x>0.0</x>
+              <y>0.0</y>
+              <startIndex>0</startIndex>
+              <name>Black Square.pngInventory</name>
+            </inventory>
+            <dialogueHandler/>
+            <heading>0.0</heading>
+            <ithDerivative>
+              <javafx.geometry.Point2D>
+                <x>1025.0</x>
+                <y>325.0</y>
+                <hash>0</hash>
+              </javafx.geometry.Point2D>
+            </ithDerivative>
+            <width>50.0</width>
+            <height>450.0</height>
+          </engine.GameObject>
+          <engine.GameObject>
+            <doubleVars/>
+            <stringVars/>
+            <booleanVars>
+              <entry>
+                <string>MovingUp</string>
+                <boolean>true</boolean>
+              </entry>
+            </booleanVars>
+            <sprite>
+              <animations>
+                <entry>
+                  <string>Default</string>
+                  <engine.sprite.AnimationSequence>
+                    <imageIndex>0</imageIndex>
+                    <images>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                    </images>
+                    <name>Default</name>
+                    <stepsPerFrame>20</stepsPerFrame>
+                    <stepsInCurrentFrame>0</stepsInCurrentFrame>
+                  </engine.sprite.AnimationSequence>
+                </entry>
+              </animations>
+              <currentAnimation reference="../animations/entry/engine.sprite.AnimationSequence"/>
+            </sprite>
+            <tagSet>
+              <string>default</string>
+              <string>Enemy</string>
+              <string>enemy</string>
+              <string>Yellow Square.png</string>
+            </tagSet>
+            <events>
+              <entry>
+                <engine.Condition>
+                  <priorityNum>10</priorityNum>
+                  <operation class="engine.operations.booleanops.Collision">
+                    <first class="engine.operations.gameobjectops.Self"/>
+                    <second class="engine.operations.gameobjectops.Nearest">
+                      <tag class="engine.operations.stringops.SelfString">
+                        <stored>Wall</stored>
+                      </tag>
+                    </second>
+                  </operation>
+                </engine.Condition>
+                <list>
+                  <engine.Actions.movement.RemoveIntersection/>
+                  <engine.Actions.variableSetting.ChangeBoolean>
+                    <varName class="engine.operations.stringops.SelfString">
+                      <stored>MovingUp</stored>
+                    </varName>
+                    <newBooleanOperation class="engine.operations.booleanops.Not">
+                      <boolOp class="engine.operations.booleanops.BooleanVariableOf">
+                        <varName class="engine.operations.stringops.SelfString">
+                          <stored>MovingUp</stored>
+                        </varName>
+                        <object class="engine.operations.gameobjectops.Self"/>
+                      </boolOp>
+                    </newBooleanOperation>
+                    <object class="engine.operations.gameobjectops.Self"/>
+                  </engine.Actions.variableSetting.ChangeBoolean>
+                </list>
+              </entry>
+              <entry>
+                <engine.Condition>
+                  <priorityNum>1</priorityNum>
+                  <operation class="engine.operations.booleanops.Not">
+                    <boolOp class="engine.operations.booleanops.BooleanVariableOf">
+                      <varName class="engine.operations.stringops.SelfString">
+                        <stored>MovingUp</stored>
+                      </varName>
+                      <object class="engine.operations.gameobjectops.Self"/>
+                    </boolOp>
+                  </operation>
+                </engine.Condition>
+                <list>
+                  <engine.Actions.movement.Move>
+                    <increment class="engine.operations.vectorops.BasicVector">
+                      <x class="engine.operations.doubleops.Value">
+                        <value>0.0</value>
+                      </x>
+                      <y class="engine.operations.doubleops.Value">
+                        <value>5.0</value>
+                      </y>
+                    </increment>
+                    <object class="engine.operations.gameobjectops.Self"/>
+                  </engine.Actions.movement.Move>
+                </list>
+              </entry>
+              <entry>
+                <engine.Condition>
+                  <priorityNum>1</priorityNum>
+                  <operation class="engine.operations.booleanops.BooleanVariableOf">
+                    <varName class="engine.operations.stringops.SelfString">
+                      <stored>MovingUp</stored>
+                    </varName>
+                    <object class="engine.operations.gameobjectops.Self"/>
+                  </operation>
+                </engine.Condition>
+                <list>
+                  <engine.Actions.movement.Move>
+                    <increment class="engine.operations.vectorops.BasicVector">
+                      <x class="engine.operations.doubleops.Value">
+                        <value>0.0</value>
+                      </x>
+                      <y class="engine.operations.doubleops.Value">
+                        <value>-5.0</value>
+                      </y>
+                    </increment>
+                    <object class="engine.operations.gameobjectops.Self"/>
+                  </engine.Actions.movement.Move>
+                </list>
+              </entry>
+            </events>
+            <uniqueID>9a1e451c-f5a5-4967-b691-cb84c4900e13</uniqueID>
+            <name>Yellow Square.png</name>
+            <inventory>
+              <objects/>
+              <holder reference="../.."/>
+              <rowSpan>5</rowSpan>
+              <colSpan>5</colSpan>
+              <x>0.0</x>
+              <y>0.0</y>
+              <startIndex>0</startIndex>
+              <name>Yellow Square.pngInventory</name>
+            </inventory>
+            <dialogueHandler/>
+            <heading>0.0</heading>
+            <ithDerivative>
+              <javafx.geometry.Point2D>
+                <x>475.0</x>
+                <y>175.0</y>
+                <hash>0</hash>
+              </javafx.geometry.Point2D>
+            </ithDerivative>
+            <width>50.0</width>
+            <height>50.0</height>
+          </engine.GameObject>
+          <engine.GameObject>
+            <doubleVars/>
+            <stringVars/>
+            <booleanVars/>
+            <sprite>
+              <animations>
+                <entry>
+                  <string>Default</string>
+                  <engine.sprite.AnimationSequence>
+                    <imageIndex>0</imageIndex>
+                    <images>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>RedSquare.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>RedSquare.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>RedSquare.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>RedSquare.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>RedSquare.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>RedSquare.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>RedSquare.png</fileName>
+                      </engine.sprite.BoundedImage>
+                    </images>
+                    <name>Default</name>
+                    <stepsPerFrame>20</stepsPerFrame>
+                    <stepsInCurrentFrame>0</stepsInCurrentFrame>
+                  </engine.sprite.AnimationSequence>
+                </entry>
+              </animations>
+              <currentAnimation reference="../animations/entry/engine.sprite.AnimationSequence"/>
+            </sprite>
+            <tagSet>
+              <string>default</string>
+              <string>RedSquare.png</string>
+              <string>Enemy</string>
+            </tagSet>
+            <events>
+              <entry>
+                <engine.Condition>
+                  <priorityNum>1</priorityNum>
+                  <operation class="engine.operations.booleanops.KeyHeld">
+                    <check class="engine.operations.stringops.SelfString">
+                      <stored>Right</stored>
+                    </check>
+                  </operation>
+                </engine.Condition>
+                <list>
+                  <engine.Actions.movement.Move>
+                    <increment class="engine.operations.vectorops.BasicVector">
+                      <x class="engine.operations.doubleops.Value">
+                        <value>5.0</value>
+                      </x>
+                      <y class="engine.operations.doubleops.Value">
+                        <value>0.0</value>
+                      </y>
+                    </increment>
+                    <object class="engine.operations.gameobjectops.Self"/>
+                  </engine.Actions.movement.Move>
+                </list>
+              </entry>
+              <entry>
+                <engine.Condition>
+                  <priorityNum>1</priorityNum>
+                  <operation class="engine.operations.booleanops.KeyHeld">
+                    <check class="engine.operations.stringops.SelfString">
+                      <stored>Down</stored>
+                    </check>
+                  </operation>
+                </engine.Condition>
+                <list>
+                  <engine.Actions.movement.Move>
+                    <increment class="engine.operations.vectorops.BasicVector">
+                      <x class="engine.operations.doubleops.Value">
+                        <value>0.0</value>
+                      </x>
+                      <y class="engine.operations.doubleops.Value">
+                        <value>5.0</value>
+                      </y>
+                    </increment>
+                    <object class="engine.operations.gameobjectops.Self"/>
+                  </engine.Actions.movement.Move>
+                </list>
+              </entry>
+              <entry>
+                <engine.Condition>
+                  <priorityNum>1</priorityNum>
+                  <operation class="engine.operations.booleanops.KeyHeld">
+                    <check class="engine.operations.stringops.SelfString">
+                      <stored>Up</stored>
+                    </check>
+                  </operation>
+                </engine.Condition>
+                <list>
+                  <engine.Actions.movement.Move>
+                    <increment class="engine.operations.vectorops.BasicVector">
+                      <x class="engine.operations.doubleops.Value">
+                        <value>0.0</value>
+                      </x>
+                      <y class="engine.operations.doubleops.Value">
+                        <value>-5.0</value>
+                      </y>
+                    </increment>
+                    <object class="engine.operations.gameobjectops.Self"/>
+                  </engine.Actions.movement.Move>
+                </list>
+              </entry>
+              <entry>
+                <engine.Condition>
+                  <priorityNum>1</priorityNum>
+                  <operation class="engine.operations.booleanops.Collision">
+                    <first class="engine.operations.gameobjectops.Self"/>
+                    <second class="engine.operations.gameobjectops.Nearest">
+                      <tag class="engine.operations.stringops.SelfString">
+                        <stored>enemy</stored>
+                      </tag>
+                    </second>
+                  </operation>
+                </engine.Condition>
+                <list>
+                  <engine.Actions.movement.MoveTo>
+                    <newLocation class="engine.operations.vectorops.BasicVector">
+                      <x class="engine.operations.doubleops.Value">
+                        <value>200.0</value>
+                      </x>
+                      <y class="engine.operations.doubleops.Value">
+                        <value>200.0</value>
+                      </y>
+                    </newLocation>
+                    <object class="engine.operations.gameobjectops.Self"/>
+                  </engine.Actions.movement.MoveTo>
+                </list>
+              </entry>
+              <entry>
+                <engine.Condition>
+                  <priorityNum>1</priorityNum>
+                  <operation class="engine.operations.booleanops.Collision">
+                    <first class="engine.operations.gameobjectops.Self"/>
+                    <second class="engine.operations.gameobjectops.Nearest">
+                      <tag class="engine.operations.stringops.SelfString">
+                        <stored>Wall</stored>
+                      </tag>
+                    </second>
+                  </operation>
+                </engine.Condition>
+                <list>
+                  <engine.Actions.movement.RemoveIntersection/>
+                </list>
+              </entry>
+              <entry>
+                <engine.Condition>
+                  <priorityNum>1</priorityNum>
+                  <operation class="engine.operations.booleanops.KeyHeld">
+                    <check class="engine.operations.stringops.SelfString">
+                      <stored>Left</stored>
+                    </check>
+                  </operation>
+                </engine.Condition>
+                <list>
+                  <engine.Actions.movement.Move>
+                    <increment class="engine.operations.vectorops.BasicVector">
+                      <x class="engine.operations.doubleops.Value">
+                        <value>-5.0</value>
+                      </x>
+                      <y class="engine.operations.doubleops.Value">
+                        <value>0.0</value>
+                      </y>
+                    </increment>
+                    <object class="engine.operations.gameobjectops.Self"/>
+                  </engine.Actions.movement.Move>
+                </list>
+              </entry>
+            </events>
+            <uniqueID>3349c1bb-6cbe-4d91-b7e1-4a738d366b58</uniqueID>
+            <name>RedSquare.png</name>
+            <inventory>
+              <objects/>
+              <holder reference="../.."/>
+              <rowSpan>5</rowSpan>
+              <colSpan>5</colSpan>
+              <x>0.0</x>
+              <y>0.0</y>
+              <startIndex>0</startIndex>
+              <name>RedSquare.pngInventory</name>
+            </inventory>
+            <dialogueHandler/>
+            <heading>0.0</heading>
+            <ithDerivative>
+              <javafx.geometry.Point2D>
+                <x>175.0</x>
+                <y>225.0</y>
+                <hash>0</hash>
+              </javafx.geometry.Point2D>
+            </ithDerivative>
+            <width>50.0</width>
+            <height>50.0</height>
+          </engine.GameObject>
+          <engine.GameObject>
+            <doubleVars/>
+            <stringVars/>
+            <booleanVars>
+              <entry>
+                <string>MovingUp</string>
+                <boolean>true</boolean>
+              </entry>
+            </booleanVars>
+            <sprite>
+              <animations>
+                <entry>
+                  <string>Default</string>
+                  <engine.sprite.AnimationSequence>
+                    <imageIndex>0</imageIndex>
+                    <images>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                    </images>
+                    <name>Default</name>
+                    <stepsPerFrame>20</stepsPerFrame>
+                    <stepsInCurrentFrame>0</stepsInCurrentFrame>
+                  </engine.sprite.AnimationSequence>
+                </entry>
+              </animations>
+              <currentAnimation reference="../animations/entry/engine.sprite.AnimationSequence"/>
+            </sprite>
+            <tagSet>
+              <string>default</string>
+              <string>enemy</string>
+              <string>Yellow Square.png</string>
+            </tagSet>
+            <events>
+              <entry>
+                <engine.Condition>
+                  <priorityNum>10</priorityNum>
+                  <operation class="engine.operations.booleanops.Collision">
+                    <first class="engine.operations.gameobjectops.Self"/>
+                    <second class="engine.operations.gameobjectops.Nearest">
+                      <tag class="engine.operations.stringops.SelfString">
+                        <stored>Wall</stored>
+                      </tag>
+                    </second>
+                  </operation>
+                </engine.Condition>
+                <list>
+                  <engine.Actions.movement.RemoveIntersection/>
+                  <engine.Actions.variableSetting.ChangeBoolean>
+                    <varName class="engine.operations.stringops.SelfString">
+                      <stored>MovingUp</stored>
+                    </varName>
+                    <newBooleanOperation class="engine.operations.booleanops.Not">
+                      <boolOp class="engine.operations.booleanops.BooleanVariableOf">
+                        <varName class="engine.operations.stringops.SelfString">
+                          <stored>MovingUp</stored>
+                        </varName>
+                        <object class="engine.operations.gameobjectops.Self"/>
+                      </boolOp>
+                    </newBooleanOperation>
+                    <object class="engine.operations.gameobjectops.Self"/>
+                  </engine.Actions.variableSetting.ChangeBoolean>
+                </list>
+              </entry>
+              <entry>
+                <engine.Condition>
+                  <priorityNum>1</priorityNum>
+                  <operation class="engine.operations.booleanops.BooleanVariableOf">
+                    <varName class="engine.operations.stringops.SelfString">
+                      <stored>MovingUp</stored>
+                    </varName>
+                    <object class="engine.operations.gameobjectops.Self"/>
+                  </operation>
+                </engine.Condition>
+                <list>
+                  <engine.Actions.movement.Move>
+                    <increment class="engine.operations.vectorops.BasicVector">
+                      <x class="engine.operations.doubleops.Value">
+                        <value>0.0</value>
+                      </x>
+                      <y class="engine.operations.doubleops.Value">
+                        <value>-5.0</value>
+                      </y>
+                    </increment>
+                    <object class="engine.operations.gameobjectops.Self"/>
+                  </engine.Actions.movement.Move>
+                </list>
+              </entry>
+              <entry>
+                <engine.Condition>
+                  <priorityNum>1</priorityNum>
+                  <operation class="engine.operations.booleanops.Not">
+                    <boolOp class="engine.operations.booleanops.BooleanVariableOf">
+                      <varName class="engine.operations.stringops.SelfString">
+                        <stored>MovingUp</stored>
+                      </varName>
+                      <object class="engine.operations.gameobjectops.Self"/>
+                    </boolOp>
+                  </operation>
+                </engine.Condition>
+                <list>
+                  <engine.Actions.movement.Move>
+                    <increment class="engine.operations.vectorops.BasicVector">
+                      <x class="engine.operations.doubleops.Value">
+                        <value>0.0</value>
+                      </x>
+                      <y class="engine.operations.doubleops.Value">
+                        <value>5.0</value>
+                      </y>
+                    </increment>
+                    <object class="engine.operations.gameobjectops.Self"/>
+                  </engine.Actions.movement.Move>
+                </list>
+              </entry>
+            </events>
+            <uniqueID>4f3b4a23-ec0f-4d80-b885-1601eb5771c6</uniqueID>
+            <name>Yellow Square.png</name>
+            <inventory>
+              <objects/>
+              <holder reference="../.."/>
+              <rowSpan>5</rowSpan>
+              <colSpan>5</colSpan>
+              <x>0.0</x>
+              <y>0.0</y>
+              <startIndex>0</startIndex>
+              <name>Yellow Square.pngInventory</name>
+            </inventory>
+            <dialogueHandler/>
+            <heading>0.0</heading>
+            <ithDerivative>
+              <javafx.geometry.Point2D>
+                <x>625.0</x>
+                <y>325.0</y>
+                <hash>0</hash>
+              </javafx.geometry.Point2D>
+            </ithDerivative>
+            <width>50.0</width>
+            <height>50.0</height>
+          </engine.GameObject>
+          <engine.GameObject>
+            <doubleVars/>
+            <stringVars/>
+            <booleanVars>
+              <entry>
+                <string>MovingUp</string>
+                <boolean>true</boolean>
+              </entry>
+            </booleanVars>
+            <sprite>
+              <animations>
+                <entry>
+                  <string>Default</string>
+                  <engine.sprite.AnimationSequence>
+                    <imageIndex>0</imageIndex>
+                    <images>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                    </images>
+                    <name>Default</name>
+                    <stepsPerFrame>20</stepsPerFrame>
+                    <stepsInCurrentFrame>0</stepsInCurrentFrame>
+                  </engine.sprite.AnimationSequence>
+                </entry>
+              </animations>
+              <currentAnimation reference="../animations/entry/engine.sprite.AnimationSequence"/>
+            </sprite>
+            <tagSet>
+              <string>default</string>
+              <string>Enemy</string>
+              <string>enemy</string>
+              <string>Yellow Square.png</string>
+            </tagSet>
+            <events>
+              <entry>
+                <engine.Condition>
+                  <priorityNum>1</priorityNum>
+                  <operation class="engine.operations.booleanops.BooleanVariableOf">
+                    <varName class="engine.operations.stringops.SelfString">
+                      <stored>MovingUp</stored>
+                    </varName>
+                    <object class="engine.operations.gameobjectops.Self"/>
+                  </operation>
+                </engine.Condition>
+                <list>
+                  <engine.Actions.movement.Move>
+                    <increment class="engine.operations.vectorops.BasicVector">
+                      <x class="engine.operations.doubleops.Value">
+                        <value>0.0</value>
+                      </x>
+                      <y class="engine.operations.doubleops.Value">
+                        <value>-5.0</value>
+                      </y>
+                    </increment>
+                    <object class="engine.operations.gameobjectops.Self"/>
+                  </engine.Actions.movement.Move>
+                </list>
+              </entry>
+              <entry>
+                <engine.Condition>
+                  <priorityNum>1</priorityNum>
+                  <operation class="engine.operations.booleanops.Not">
+                    <boolOp class="engine.operations.booleanops.BooleanVariableOf">
+                      <varName class="engine.operations.stringops.SelfString">
+                        <stored>MovingUp</stored>
+                      </varName>
+                      <object class="engine.operations.gameobjectops.Self"/>
+                    </boolOp>
+                  </operation>
+                </engine.Condition>
+                <list>
+                  <engine.Actions.movement.Move>
+                    <increment class="engine.operations.vectorops.BasicVector">
+                      <x class="engine.operations.doubleops.Value">
+                        <value>0.0</value>
+                      </x>
+                      <y class="engine.operations.doubleops.Value">
+                        <value>5.0</value>
+                      </y>
+                    </increment>
+                    <object class="engine.operations.gameobjectops.Self"/>
+                  </engine.Actions.movement.Move>
+                </list>
+              </entry>
+              <entry>
+                <engine.Condition>
+                  <priorityNum>10</priorityNum>
+                  <operation class="engine.operations.booleanops.Collision">
+                    <first class="engine.operations.gameobjectops.Self"/>
+                    <second class="engine.operations.gameobjectops.Nearest">
+                      <tag class="engine.operations.stringops.SelfString">
+                        <stored>Wall</stored>
+                      </tag>
+                    </second>
+                  </operation>
+                </engine.Condition>
+                <list>
+                  <engine.Actions.variableSetting.ChangeBoolean>
+                    <varName class="engine.operations.stringops.SelfString">
+                      <stored>MovingUp</stored>
+                    </varName>
+                    <newBooleanOperation class="engine.operations.booleanops.Not">
+                      <boolOp class="engine.operations.booleanops.BooleanVariableOf">
+                        <varName class="engine.operations.stringops.SelfString">
+                          <stored>MovingUp</stored>
+                        </varName>
+                        <object class="engine.operations.gameobjectops.Self"/>
+                      </boolOp>
+                    </newBooleanOperation>
+                    <object class="engine.operations.gameobjectops.Self"/>
+                  </engine.Actions.variableSetting.ChangeBoolean>
+                  <engine.Actions.movement.RemoveIntersection/>
+                </list>
+              </entry>
+            </events>
+            <uniqueID>9d22bbe9-55bf-4db3-95c4-763989ea5d36</uniqueID>
+            <name>Yellow Square.png</name>
+            <inventory>
+              <objects/>
+              <holder reference="../.."/>
+              <rowSpan>5</rowSpan>
+              <colSpan>5</colSpan>
+              <x>0.0</x>
+              <y>0.0</y>
+              <startIndex>0</startIndex>
+              <name>Yellow Square.pngInventory</name>
+            </inventory>
+            <dialogueHandler/>
+            <heading>0.0</heading>
+            <ithDerivative>
+              <javafx.geometry.Point2D>
+                <x>325.0</x>
+                <y>475.0</y>
+                <hash>0</hash>
+              </javafx.geometry.Point2D>
+            </ithDerivative>
+            <width>50.0</width>
+            <height>50.0</height>
+          </engine.GameObject>
+          <engine.GameObject>
+            <doubleVars/>
+            <stringVars/>
+            <booleanVars>
+              <entry>
+                <string>MovingUp</string>
+                <boolean>true</boolean>
+              </entry>
+            </booleanVars>
+            <sprite>
+              <animations>
+                <entry>
+                  <string>Default</string>
+                  <engine.sprite.AnimationSequence>
+                    <imageIndex>0</imageIndex>
+                    <images>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Yellow Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                    </images>
+                    <name>Default</name>
+                    <stepsPerFrame>20</stepsPerFrame>
+                    <stepsInCurrentFrame>0</stepsInCurrentFrame>
+                  </engine.sprite.AnimationSequence>
+                </entry>
+              </animations>
+              <currentAnimation reference="../animations/entry/engine.sprite.AnimationSequence"/>
+            </sprite>
+            <tagSet>
+              <string>default</string>
+              <string>Enemy</string>
+              <string>enemy</string>
+              <string>Yellow Square.png</string>
+            </tagSet>
+            <events>
+              <entry>
+                <engine.Condition>
+                  <priorityNum>10</priorityNum>
+                  <operation class="engine.operations.booleanops.Collision">
+                    <first class="engine.operations.gameobjectops.Self"/>
+                    <second class="engine.operations.gameobjectops.Nearest">
+                      <tag class="engine.operations.stringops.SelfString">
+                        <stored>Wall</stored>
+                      </tag>
+                    </second>
+                  </operation>
+                </engine.Condition>
+                <list>
+                  <engine.Actions.movement.RemoveIntersection/>
+                  <engine.Actions.variableSetting.ChangeBoolean>
+                    <varName class="engine.operations.stringops.SelfString">
+                      <stored>MovingUp</stored>
+                    </varName>
+                    <newBooleanOperation class="engine.operations.booleanops.Not">
+                      <boolOp class="engine.operations.booleanops.BooleanVariableOf">
+                        <varName class="engine.operations.stringops.SelfString">
+                          <stored>MovingUp</stored>
+                        </varName>
+                        <object class="engine.operations.gameobjectops.Self"/>
+                      </boolOp>
+                    </newBooleanOperation>
+                    <object class="engine.operations.gameobjectops.Self"/>
+                  </engine.Actions.variableSetting.ChangeBoolean>
+                </list>
+              </entry>
+              <entry>
+                <engine.Condition>
+                  <priorityNum>1</priorityNum>
+                  <operation class="engine.operations.booleanops.BooleanVariableOf">
+                    <varName class="engine.operations.stringops.SelfString">
+                      <stored>MovingUp</stored>
+                    </varName>
+                    <object class="engine.operations.gameobjectops.Self"/>
+                  </operation>
+                </engine.Condition>
+                <list>
+                  <engine.Actions.movement.Move>
+                    <increment class="engine.operations.vectorops.BasicVector">
+                      <x class="engine.operations.doubleops.Value">
+                        <value>0.0</value>
+                      </x>
+                      <y class="engine.operations.doubleops.Value">
+                        <value>-5.0</value>
+                      </y>
+                    </increment>
+                    <object class="engine.operations.gameobjectops.Self"/>
+                  </engine.Actions.movement.Move>
+                </list>
+              </entry>
+              <entry>
+                <engine.Condition>
+                  <priorityNum>1</priorityNum>
+                  <operation class="engine.operations.booleanops.Not">
+                    <boolOp class="engine.operations.booleanops.BooleanVariableOf">
+                      <varName class="engine.operations.stringops.SelfString">
+                        <stored>MovingUp</stored>
+                      </varName>
+                      <object class="engine.operations.gameobjectops.Self"/>
+                    </boolOp>
+                  </operation>
+                </engine.Condition>
+                <list>
+                  <engine.Actions.movement.Move>
+                    <increment class="engine.operations.vectorops.BasicVector">
+                      <x class="engine.operations.doubleops.Value">
+                        <value>0.0</value>
+                      </x>
+                      <y class="engine.operations.doubleops.Value">
+                        <value>5.0</value>
+                      </y>
+                    </increment>
+                    <object class="engine.operations.gameobjectops.Self"/>
+                  </engine.Actions.movement.Move>
+                </list>
+              </entry>
+            </events>
+            <uniqueID>f7ff8ed0-8990-4324-af63-302cfa7f18d8</uniqueID>
+            <name>Yellow Square.png</name>
+            <inventory>
+              <objects/>
+              <holder reference="../.."/>
+              <rowSpan>5</rowSpan>
+              <colSpan>5</colSpan>
+              <x>0.0</x>
+              <y>0.0</y>
+              <startIndex>0</startIndex>
+              <name>Yellow Square.pngInventory</name>
+            </inventory>
+            <dialogueHandler/>
+            <heading>0.0</heading>
+            <ithDerivative>
+              <javafx.geometry.Point2D>
+                <x>775.0</x>
+                <y>475.0</y>
+                <hash>0</hash>
+              </javafx.geometry.Point2D>
+            </ithDerivative>
+            <width>50.0</width>
+            <height>50.0</height>
+          </engine.GameObject>
+          <engine.GameObject>
+            <doubleVars/>
+            <stringVars/>
+            <booleanVars/>
+            <sprite>
+              <animations>
+                <entry>
+                  <string>Default</string>
+                  <engine.sprite.AnimationSequence>
+                    <imageIndex>0</imageIndex>
+                    <images>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Black Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Black Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Black Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Black Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Black Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Black Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                    </images>
+                    <name>Default</name>
+                    <stepsPerFrame>20</stepsPerFrame>
+                    <stepsInCurrentFrame>0</stepsInCurrentFrame>
+                  </engine.sprite.AnimationSequence>
+                </entry>
+              </animations>
+              <currentAnimation reference="../animations/entry/engine.sprite.AnimationSequence"/>
+            </sprite>
+            <tagSet>
+              <string>default</string>
+              <string>Black Square.png</string>
+            </tagSet>
+            <events/>
+            <uniqueID>b1f58d91-cfc7-4d44-b1b2-683c1b7e5516</uniqueID>
+            <name>Black Square.png</name>
+            <inventory>
+              <objects/>
+              <holder reference="../.."/>
+              <rowSpan>5</rowSpan>
+              <colSpan>5</colSpan>
+              <x>0.0</x>
+              <y>0.0</y>
+              <startIndex>0</startIndex>
+              <name>Black Square.pngInventory</name>
+            </inventory>
+            <dialogueHandler/>
+            <heading>0.0</heading>
+            <ithDerivative>
+              <javafx.geometry.Point2D>
+                <x>75.0</x>
+                <y>525.0</y>
+                <hash>0</hash>
+              </javafx.geometry.Point2D>
+            </ithDerivative>
+            <width>50.0</width>
+            <height>50.0</height>
+          </engine.GameObject>
+          <engine.GameObject>
+            <doubleVars/>
+            <stringVars/>
+            <booleanVars/>
+            <sprite>
+              <animations>
+                <entry>
+                  <string>Default</string>
+                  <engine.sprite.AnimationSequence>
+                    <imageIndex>0</imageIndex>
+                    <images>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Black Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Black Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Black Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Black Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Black Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Black Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                      <engine.sprite.BoundedImage>
+                        <drawingPriority>10</drawingPriority>
+                        <x>0.0</x>
+                        <y>0.0</y>
+                        <width>0.0</width>
+                        <height>0.0</height>
+                        <heading>0.0</heading>
+                        <relativeBounds>
+                          <engine.utilities.collisions.RelativeBoundingPolygon reference="../../../../../../../../../../../engine.GameLayer[2]/worldElements/engine.GameObject/sprite/animations/entry/engine.sprite.AnimationSequence/images/engine.sprite.BoundedImage/relativeBounds/engine.utilities.collisions.RelativeBoundingPolygon"/>
+                        </relativeBounds>
+                        <fileName>Black Square.png</fileName>
+                      </engine.sprite.BoundedImage>
+                    </images>
+                    <name>Default</name>
+                    <stepsPerFrame>20</stepsPerFrame>
+                    <stepsInCurrentFrame>0</stepsInCurrentFrame>
+                  </engine.sprite.AnimationSequence>
+                </entry>
+              </animations>
+              <currentAnimation reference="../animations/entry/engine.sprite.AnimationSequence"/>
+            </sprite>
+            <tagSet>
+              <string>default</string>
+              <string>Wall</string>
+              <string>Black Square.png</string>
+            </tagSet>
+            <events/>
+            <uniqueID>65cec9c0-f58e-4be0-8b36-60aada01ec17</uniqueID>
+            <name>Black Square.png</name>
+            <inventory>
+              <objects/>
+              <holder reference="../.."/>
+              <rowSpan>5</rowSpan>
+              <colSpan>5</colSpan>
+              <x>0.0</x>
+              <y>0.0</y>
+              <startIndex>0</startIndex>
+              <name>Black Square.pngInventory</name>
+            </inventory>
+            <dialogueHandler/>
+            <heading>0.0</heading>
+            <ithDerivative>
+              <javafx.geometry.Point2D>
+                <x>550.0</x>
+                <y>575.0</y>
+                <hash>0</hash>
+              </javafx.geometry.Point2D>
+            </ithDerivative>
+            <width>1000.0</width>
+            <height>50.0</height>
+          </engine.GameObject>
+        </worldElements>
+        <objects>
+          <engine.GameObject reference="../../worldElements/engine.GameObject"/>
+          <engine.GameObject reference="../../worldElements/engine.GameObject[2]"/>
+          <engine.GameObject reference="../../worldElements/engine.GameObject[3]"/>
+          <engine.GameObject reference="../../worldElements/engine.GameObject[4]"/>
+          <engine.GameObject reference="../../worldElements/engine.GameObject[5]"/>
+          <engine.GameObject reference="../../worldElements/engine.GameObject[6]"/>
+          <engine.GameObject reference="../../worldElements/engine.GameObject[7]"/>
+          <engine.GameObject reference="../../worldElements/engine.GameObject[8]"/>
+          <engine.GameObject reference="../../worldElements/engine.GameObject[9]"/>
+          <engine.GameObject reference="../../worldElements/engine.GameObject[10]"/>
+          <engine.GameObject reference="../../worldElements/engine.GameObject[11]"/>
+        </objects>
+        <conditionPriorities class="java.util.concurrent.ConcurrentSkipListMap" serialization="custom">
+          <unserializable-parents/>
+          <java.util.concurrent.ConcurrentSkipListMap>
+            <default/>
+            <int>1</int>
+            <list>
+              <engine.GameObject reference="../../../../worldElements/engine.GameObject[5]"/>
+              <engine.GameObject reference="../../../../worldElements/engine.GameObject[6]"/>
+              <engine.GameObject reference="../../../../worldElements/engine.GameObject[7]"/>
+              <engine.GameObject reference="../../../../worldElements/engine.GameObject[8]"/>
+              <engine.GameObject reference="../../../../worldElements/engine.GameObject[9]"/>
+            </list>
+            <int>10</int>
+            <list>
+              <engine.GameObject reference="../../../../worldElements/engine.GameObject[5]"/>
+              <engine.GameObject reference="../../../../worldElements/engine.GameObject[7]"/>
+              <engine.GameObject reference="../../../../worldElements/engine.GameObject[8]"/>
+              <engine.GameObject reference="../../../../worldElements/engine.GameObject[9]"/>
+            </list>
+            <null/>
+          </java.util.concurrent.ConcurrentSkipListMap>
+        </conditionPriorities>
+        <idToGameObject>
+          <entry>
+            <string>f7ff8ed0-8990-4324-af63-302cfa7f18d8</string>
+            <engine.GameObject reference="../../../worldElements/engine.GameObject[9]"/>
+          </entry>
+          <entry>
+            <string>65cec9c0-f58e-4be0-8b36-60aada01ec17</string>
+            <engine.GameObject reference="../../../worldElements/engine.GameObject[11]"/>
+          </entry>
+          <entry>
+            <string>651f4b55-a6d7-412e-b93a-8b8c4de2e90e</string>
+            <engine.GameObject reference="../../../worldElements/engine.GameObject"/>
+          </entry>
+          <entry>
+            <string>b1f58d91-cfc7-4d44-b1b2-683c1b7e5516</string>
+            <engine.GameObject reference="../../../worldElements/engine.GameObject[10]"/>
+          </entry>
+          <entry>
+            <string>9a1e451c-f5a5-4967-b691-cb84c4900e13</string>
+            <engine.GameObject reference="../../../worldElements/engine.GameObject[5]"/>
+          </entry>
+          <entry>
+            <string>9d22bbe9-55bf-4db3-95c4-763989ea5d36</string>
+            <engine.GameObject reference="../../../worldElements/engine.GameObject[8]"/>
+          </entry>
+          <entry>
+            <string>0adb5f58-0493-416b-a792-010eb228ea35</string>
+            <engine.GameObject reference="../../../worldElements/engine.GameObject[3]"/>
+          </entry>
+          <entry>
+            <string>4f3b4a23-ec0f-4d80-b885-1601eb5771c6</string>
+            <engine.GameObject reference="../../../worldElements/engine.GameObject[7]"/>
+          </entry>
+          <entry>
+            <string>51a78cee-f961-4ad1-955a-21748b2bfb3b</string>
+            <engine.GameObject reference="../../../worldElements/engine.GameObject[2]"/>
+          </entry>
+          <entry>
+            <string>9516192c-5eb5-40ff-9661-4b337e39b21f</string>
+            <engine.GameObject reference="../../../worldElements/engine.GameObject[4]"/>
+          </entry>
+          <entry>
+            <string>3349c1bb-6cbe-4d91-b7e1-4a738d366b58</string>
+            <engine.GameObject reference="../../../worldElements/engine.GameObject[6]"/>
+          </entry>
+        </idToGameObject>
+        <isTracked>true</isTracked>
+      </engine.GameLayer>
+    </worldLayers>
+    <camera>
+      <SCREEN__WIDTH>1000.0</SCREEN__WIDTH>
+      <SCREEN__HEIGHT>700.0</SCREEN__HEIGHT>
+      <PARALLAX>0.1</PARALLAX>
+      <x>0.0</x>
+      <y>0.0</y>
+    </camera>
+  </currentWorld>
+  <madeWorlds>
+    <engine.GameWorld reference="../../currentWorld"/>
+  </madeWorlds>
+  <globalVars>
+    <doubleVars/>
+    <stringVars/>
+    <booleanVars/>
+  </globalVars>
+  <nextWorld>World 1</nextWorld>
+</engine.GameMaster>

@@ -1,0 +1,23 @@
+.button {
+	-fx-background-color: transparent;
+	-fx-border-color: #47BDFF;
+	-fx-text-fill: #47BDFF;
+	-fx-font-size: 20px;
+}
+
+.button:hover {
+	-fx-background-color: #FFCD3C;
+	-fx-background-insets: 0 0 0.5px 0;
+}
+
+#submit{
+	-fx-background-color: transparent;
+	-fx-border-color: #47BDFF;
+	-fx-text-fill: #47BDFF;
+	-fx-font-size: 12px;
+}
+
+#submit:hover{
+	-fx-background-color: #FFCD3C;
+	-fx-background-insets: 0 0 0.5px 0;
+}

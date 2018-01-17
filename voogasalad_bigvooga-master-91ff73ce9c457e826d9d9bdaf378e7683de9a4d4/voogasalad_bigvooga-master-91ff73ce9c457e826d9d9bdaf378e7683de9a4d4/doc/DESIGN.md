@@ -1,0 +1,4 @@
+### DESIGN
+
+* High-level design goals for the project: create the ability for the user to author and play almost any kind of 2D game he/she wants. Our goal for the project was to make everything as flexible as possible for the user. We wanted to allow the user to create their own sprites, define their own actions and condtions for those sprites, create and edit their own maps, view their game from a heads-up display or from different map points of view, and author their own dialogs and cut scenes. Regarding data, our high-level goals were to be able to load and save games with the ability to edit them, as well as export and import games. 
+* Adding new features to the project depends on the specific kind of feature that is desired to be added. To edit or add actions and conditions, the developer would alter the action and condition operation factories, which would automatically be reflected in their authoring treeviews. 

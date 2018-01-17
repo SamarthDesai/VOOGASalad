@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpriteObject>
+	<Name>name</Name>
+	<Image>filePath</Image>
+	<Size>20</Size>
+	<Motion type="controlled">
+		<Key type="left">-10 0</Key>
+		<Key type="right">10 0</Key>
+		<Key type="up">0 10</Key>
+		<Key type="down">0 -10</Key>
+	</Motion>
+	<Dialogue>
+		<comment>Hi, welcome to adventure land</comment>
+		<comment>Goodbye, remember do not go near the goblin forest!</comment>
+	</Dialogue>
+</SpriteObject>

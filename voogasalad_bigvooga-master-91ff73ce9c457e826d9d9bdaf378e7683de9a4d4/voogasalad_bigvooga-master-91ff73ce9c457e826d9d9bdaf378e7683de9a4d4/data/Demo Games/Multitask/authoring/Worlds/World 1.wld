@@ -1,0 +1,505 @@
+<authoring__UI.MapDataConverter>
+  <myName>World 1</myName>
+  <gridManagers>
+    <authoring__UI.LayerDataConverter>
+      <myNumRows>20</myNumRows>
+      <myNumCols>20</myNumCols>
+      <layerNum>0</layerNum>
+      <myName>Background</myName>
+      <mySprites/>
+    </authoring__UI.LayerDataConverter>
+    <authoring__UI.LayerDataConverter>
+      <myNumRows>20</myNumRows>
+      <myNumCols>20</myNumCols>
+      <layerNum>1</layerNum>
+      <myName>Terrain</myName>
+      <mySprites/>
+    </authoring__UI.LayerDataConverter>
+    <authoring__UI.LayerDataConverter>
+      <myNumRows>20</myNumRows>
+      <myNumCols>20</myNumCols>
+      <layerNum>2</layerNum>
+      <myName>Main View</myName>
+      <mySprites/>
+    </authoring__UI.LayerDataConverter>
+    <authoring__UI.LayerDataConverter>
+      <myNumRows>20</myNumRows>
+      <myNumCols>20</myNumCols>
+      <layerNum>3</layerNum>
+      <myName>Panels</myName>
+      <mySprites>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows>
+            <entry>
+              <engine.Condition>
+                <priorityNum>1</priorityNum>
+                <operation class="engine.operations.booleanops.BooleanValue">
+                  <value>true</value>
+                </operation>
+              </engine.Condition>
+              <linked-list>
+                <int>1</int>
+              </linked-list>
+            </entry>
+            <entry>
+              <engine.Condition>
+                <priorityNum>2</priorityNum>
+                <operation class="engine.operations.booleanops.CollisionByTag">
+                  <tag class="engine.operations.stringops.SelfString">
+                    <stored>Beam</stored>
+                  </tag>
+                </operation>
+              </engine.Condition>
+              <linked-list>
+                <int>2</int>
+              </linked-list>
+            </entry>
+          </conditionRows>
+          <actionRows>
+            <engine.Actions.movement.SetVelocity>
+              <object class="engine.operations.gameobjectops.Self"/>
+              <velocity class="engine.operations.vectorops.BasicVector">
+                <x class="engine.operations.doubleops.Value">
+                  <value>0.0</value>
+                </x>
+                <y class="engine.operations.doubleops.Value">
+                  <value>4.0</value>
+                </y>
+              </velocity>
+            </engine.Actions.movement.SetVelocity>
+            <engine.Actions.movement.RemoveIntersection/>
+          </actionRows>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list>
+                <authoring.Sprite.Parameters.DoubleSpriteParameter>
+                  <string>Grav</string>
+                  <double>5.0</double>
+                </authoring.Sprite.Parameters.DoubleSpriteParameter>
+              </list>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>UniqueSprite018425859133278866.png</imageURL>
+          <gridPos>
+            <int>5</int>
+            <int>4</int>
+          </gridPos>
+          <name>Ball</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>acd6661e-d60d-4898-b905-2a9a321ae31a</UUID>
+          <myAnimationSequences>
+            <authoring.Sprite.AnimationSequences.AuthoringAnimationSequence resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringAnimationSequence">
+              <myName>Default</myName>
+              <myImages>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>UniqueSprite018425859133278866.png</imagePath>
+                    <bImage>
+                      <drawingPriority>10</drawingPriority>
+                      <x>0.0</x>
+                      <y>0.0</y>
+                      <width>0.0</width>
+                      <height>0.0</height>
+                      <heading>0.0</heading>
+                      <relativeBounds>
+                        <engine.utilities.collisions.RelativeBoundingPolygon>
+                          <geometry>
+                            <vertices>
+                              <javafx.geometry.Point2D>
+                                <x>-0.015000000000000013</x>
+                                <y>-0.09625</y>
+                                <hash>0</hash>
+                              </javafx.geometry.Point2D>
+                              <javafx.geometry.Point2D>
+                                <x>0.03125</x>
+                                <y>-0.06374999999999997</y>
+                                <hash>0</hash>
+                              </javafx.geometry.Point2D>
+                              <javafx.geometry.Point2D>
+                                <x>0.04125000000000001</x>
+                                <y>-0.023749999999999993</y>
+                                <hash>0</hash>
+                              </javafx.geometry.Point2D>
+                              <javafx.geometry.Point2D>
+                                <x>0.012499999999999956</x>
+                                <y>0.03875000000000006</y>
+                                <hash>0</hash>
+                              </javafx.geometry.Point2D>
+                              <javafx.geometry.Point2D>
+                                <x>-0.057499999999999996</x>
+                                <y>0.04500000000000004</y>
+                                <hash>0</hash>
+                              </javafx.geometry.Point2D>
+                              <javafx.geometry.Point2D>
+                                <x>-0.10249999999999998</x>
+                                <y>0.0</y>
+                                <hash>0</hash>
+                              </javafx.geometry.Point2D>
+                              <javafx.geometry.Point2D>
+                                <x>-0.10375000000000001</x>
+                                <y>-0.03999999999999998</y>
+                                <hash>0</hash>
+                              </javafx.geometry.Point2D>
+                              <javafx.geometry.Point2D>
+                                <x>-0.08999999999999997</x>
+                                <y>-0.08000000000000002</y>
+                                <hash>0</hash>
+                              </javafx.geometry.Point2D>
+                              <javafx.geometry.Point2D>
+                                <x>-0.05249999999999999</x>
+                                <y>-0.09875</y>
+                                <hash>0</hash>
+                              </javafx.geometry.Point2D>
+                            </vertices>
+                          </geometry>
+                        </engine.utilities.collisions.RelativeBoundingPolygon>
+                      </relativeBounds>
+                      <fileName>UniqueSprite018425859133278866.png</fileName>
+                    </bImage>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+              </myImages>
+            </authoring.Sprite.AnimationSequences.AuthoringAnimationSequence>
+          </myAnimationSequences>
+          <spriteConditionOperations class="linked-list">
+            <string>Input a Boolean</string>
+            <string>Collision by Tag</string>
+          </spriteConditionOperations>
+          <spriteActionOperations class="linked-list">
+            <linked-list>
+              <string>Movement</string>
+              <string>Set Velocity</string>
+            </linked-list>
+            <linked-list>
+              <string>Movement</string>
+              <string>Remove Intersection</string>
+            </linked-list>
+          </spriteActionOperations>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows>
+            <entry>
+              <engine.Condition>
+                <priorityNum>2</priorityNum>
+                <operation class="engine.operations.booleanops.KeyPressed">
+                  <check class="engine.operations.stringops.SelfString">
+                    <stored>W</stored>
+                  </check>
+                </operation>
+              </engine.Condition>
+              <linked-list>
+                <int>2</int>
+              </linked-list>
+            </entry>
+            <entry>
+              <engine.Condition>
+                <priorityNum>1</priorityNum>
+                <operation class="engine.operations.booleanops.BooleanValue">
+                  <value>true</value>
+                </operation>
+              </engine.Condition>
+              <linked-list>
+                <int>1</int>
+              </linked-list>
+            </entry>
+          </conditionRows>
+          <actionRows>
+            <engine.Actions.movement.SetAcceleration>
+              <object class="engine.operations.gameobjectops.Self"/>
+              <acceleration class="engine.operations.vectorops.BasicVector">
+                <x class="engine.operations.doubleops.Value">
+                  <value>0.0</value>
+                </x>
+                <y class="engine.operations.doubleops.Value">
+                  <value>0.1</value>
+                </y>
+              </acceleration>
+            </engine.Actions.movement.SetAcceleration>
+            <engine.Actions.movement.SetVelocity>
+              <object class="engine.operations.gameobjectops.Self"/>
+              <velocity class="engine.operations.vectorops.BasicVector">
+                <x class="engine.operations.doubleops.Value">
+                  <value>0.0</value>
+                </x>
+                <y class="engine.operations.doubleops.Value">
+                  <value>-4.0</value>
+                </y>
+              </velocity>
+            </engine.Actions.movement.SetVelocity>
+          </actionRows>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list>
+                <authoring.Sprite.Parameters.DoubleSpriteParameter>
+                  <string>VSpeed</string>
+                  <double>0.0</double>
+                </authoring.Sprite.Parameters.DoubleSpriteParameter>
+                <authoring.Sprite.Parameters.DoubleSpriteParameter>
+                  <string>VAccel</string>
+                  <double>0.0</double>
+                </authoring.Sprite.Parameters.DoubleSpriteParameter>
+              </list>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>UniqueSprite018425859133278866.png</imageURL>
+          <gridPos>
+            <int>5</int>
+            <int>13</int>
+          </gridPos>
+          <name>Ball</name>
+          <width>1</width>
+          <height>1</height>
+          <UUID>ebabbff7-e3f2-4a30-bdad-7ff7cabeceb0</UUID>
+          <myAnimationSequences>
+            <authoring.Sprite.AnimationSequences.AuthoringAnimationSequence resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringAnimationSequence">
+              <myName>Default</myName>
+              <myImages>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>UniqueSprite018425859133278866.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>UniqueSprite018425859133278866.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>UniqueSprite018425859133278866.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>UniqueSprite018425859133278866.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>UniqueSprite018425859133278866.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>UniqueSprite018425859133278866.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>UniqueSprite018425859133278866.png</imagePath>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+              </myImages>
+            </authoring.Sprite.AnimationSequences.AuthoringAnimationSequence>
+          </myAnimationSequences>
+          <spriteConditionOperations class="linked-list">
+            <string>Input a Boolean</string>
+            <string>Key was Pressed</string>
+          </spriteConditionOperations>
+          <spriteActionOperations class="linked-list">
+            <linked-list>
+              <string>Movement</string>
+              <string>Set Acceleration</string>
+            </linked-list>
+            <linked-list>
+              <string>Movement</string>
+              <string>Set Velocity</string>
+            </linked-list>
+          </spriteActionOperations>
+          <spriteType>SpriteObject</spriteType>
+          <tags/>
+        </authoring__UI.SpriteDataConverter>
+        <authoring__UI.SpriteDataConverter>
+          <conditionRows>
+            <entry>
+              <engine.Condition>
+                <priorityNum>2</priorityNum>
+                <operation class="engine.operations.booleanops.KeyHeld">
+                  <check class="engine.operations.stringops.SelfString">
+                    <stored>D</stored>
+                  </check>
+                </operation>
+              </engine.Condition>
+              <linked-list>
+                <int>2</int>
+              </linked-list>
+            </entry>
+            <entry>
+              <engine.Condition>
+                <priorityNum>1</priorityNum>
+                <operation class="engine.operations.booleanops.BooleanValue">
+                  <value>true</value>
+                </operation>
+              </engine.Condition>
+              <linked-list>
+                <int>1</int>
+              </linked-list>
+            </entry>
+            <entry>
+              <engine.Condition>
+                <priorityNum>1</priorityNum>
+                <operation class="engine.operations.booleanops.KeyHeld">
+                  <check class="engine.operations.stringops.SelfString">
+                    <stored>A</stored>
+                  </check>
+                </operation>
+              </engine.Condition>
+              <linked-list>
+                <int>3</int>
+              </linked-list>
+            </entry>
+          </conditionRows>
+          <actionRows>
+            <engine.Actions.movement.RotateTo>
+              <newHeading class="engine.operations.doubleops.DoubleVariableOf">
+                <varName class="engine.operations.stringops.SelfString">
+                  <stored>Rotation</stored>
+                </varName>
+                <object class="engine.operations.gameobjectops.Self"/>
+              </newHeading>
+              <object class="engine.operations.gameobjectops.Self"/>
+            </engine.Actions.movement.RotateTo>
+            <engine.Actions.variableSetting.ChangeDouble>
+              <varName class="engine.operations.stringops.SelfString">
+                <stored>Rotation</stored>
+              </varName>
+              <newDouble class="engine.operations.doubleops.Sum">
+                <first class="engine.operations.doubleops.DoubleVariableOf">
+                  <varName class="engine.operations.stringops.SelfString">
+                    <stored>Rotation</stored>
+                  </varName>
+                  <object class="engine.operations.gameobjectops.Self"/>
+                </first>
+                <second class="engine.operations.doubleops.Value">
+                  <value>0.09</value>
+                </second>
+              </newDouble>
+              <object class="engine.operations.gameobjectops.Self"/>
+            </engine.Actions.variableSetting.ChangeDouble>
+            <engine.Actions.variableSetting.ChangeDouble>
+              <varName class="engine.operations.stringops.SelfString">
+                <stored>Rotation</stored>
+              </varName>
+              <newDouble class="engine.operations.doubleops.Sum">
+                <first class="engine.operations.doubleops.DoubleVariableOf">
+                  <varName class="engine.operations.stringops.SelfString">
+                    <stored>Rotation</stored>
+                  </varName>
+                  <object class="engine.operations.gameobjectops.Self"/>
+                </first>
+                <second class="engine.operations.doubleops.Value">
+                  <value>-0.09</value>
+                </second>
+              </newDouble>
+              <object class="engine.operations.gameobjectops.Self"/>
+            </engine.Actions.variableSetting.ChangeDouble>
+          </actionRows>
+          <catmap>
+            <entry>
+              <string>Category1</string>
+              <list>
+                <authoring.Sprite.Parameters.DoubleSpriteParameter>
+                  <string>Rotation</string>
+                  <double>1.5</double>
+                </authoring.Sprite.Parameters.DoubleSpriteParameter>
+                <authoring.Sprite.Parameters.DoubleSpriteParameter>
+                  <string>Increment</string>
+                  <double>0.02</double>
+                </authoring.Sprite.Parameters.DoubleSpriteParameter>
+              </list>
+            </entry>
+          </catmap>
+          <inventory/>
+          <imageURL>UniqueSprite0864195131612494.png</imageURL>
+          <gridPos>
+            <int>6</int>
+            <int>2</int>
+          </gridPos>
+          <name>Balancer</name>
+          <width>5</width>
+          <height>2</height>
+          <UUID>be58a57e-dc02-4364-b5d7-cc7938c7fb4e</UUID>
+          <myAnimationSequences>
+            <authoring.Sprite.AnimationSequences.AuthoringAnimationSequence resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringAnimationSequence">
+              <myName>Default</myName>
+              <myImages>
+                <authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+                  <myImage resolves-to="authoring.Sprite.AnimationSequences.SerializableAuthoringImageView">
+                    <imagePath>UniqueSprite0864195131612494.png</imagePath>
+                    <bImage>
+                      <drawingPriority>10</drawingPriority>
+                      <x>0.0</x>
+                      <y>0.0</y>
+                      <width>0.0</width>
+                      <height>0.0</height>
+                      <heading>0.0</heading>
+                      <relativeBounds>
+                        <engine.utilities.collisions.RelativeBoundingPolygon>
+                          <geometry>
+                            <vertices>
+                              <javafx.geometry.Point2D>
+                                <x>-0.495</x>
+                                <y>-0.057499999999999996</y>
+                                <hash>0</hash>
+                              </javafx.geometry.Point2D>
+                              <javafx.geometry.Point2D>
+                                <x>0.49750000000000005</x>
+                                <y>-0.05624999999999997</y>
+                                <hash>0</hash>
+                              </javafx.geometry.Point2D>
+                              <javafx.geometry.Point2D>
+                                <x>0.49624999999999997</x>
+                                <y>-0.03249999999999997</y>
+                                <hash>0</hash>
+                              </javafx.geometry.Point2D>
+                              <javafx.geometry.Point2D>
+                                <x>-0.49375</x>
+                                <y>-0.03249999999999997</y>
+                                <hash>0</hash>
+                              </javafx.geometry.Point2D>
+                            </vertices>
+                          </geometry>
+                        </engine.utilities.collisions.RelativeBoundingPolygon>
+                      </relativeBounds>
+                      <fileName>UniqueSprite0864195131612494.png</fileName>
+                    </bImage>
+                  </myImage>
+                </authoring.Sprite.AnimationSequences.AnimationSequenceImage>
+              </myImages>
+            </authoring.Sprite.AnimationSequences.AuthoringAnimationSequence>
+          </myAnimationSequences>
+          <spriteConditionOperations class="linked-list">
+            <string>Input a Boolean</string>
+            <string>Key is Held</string>
+            <string>Key is Held</string>
+          </spriteConditionOperations>
+          <spriteActionOperations class="linked-list">
+            <linked-list>
+              <string>Movement</string>
+              <string>Rotate To</string>
+            </linked-list>
+            <linked-list>
+              <string>Variable Changes</string>
+              <string>Change Double</string>
+            </linked-list>
+            <linked-list>
+              <string>Variable Changes</string>
+              <string>Change Double</string>
+            </linked-list>
+          </spriteActionOperations>
+          <spriteType>SpriteObject</spriteType>
+          <tags>
+            <string>Beam</string>
+          </tags>
+        </authoring__UI.SpriteDataConverter>
+      </mySprites>
+    </authoring__UI.LayerDataConverter>
+  </gridManagers>
+</authoring__UI.MapDataConverter>
